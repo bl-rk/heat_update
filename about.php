@@ -34,8 +34,9 @@ include("inc/header.php"); ?>
                             <p>Take look at our</p>
                             <h2>About our company</h2>
                         </div>
-                        <h6 class="mb-4">In vitae nisi aliquam, scelerisque leo a, volutpat sem. Viva mus rutrum dui fermentum eros hendrerit, id lobortis leo volutpat. </h6>
-                        <p class="mb-0">Sed ut iaculis elit, quis varius mauris. Integer ut ultricies orci, lobortis egestas sem. Duis non volutpat arcu. Sed ut iaculis elit, quis varius mauris. Integer ut ultricies orci, lobortis egestas sem. Duis non volutpat arcu. Pellentesque lobortis neque non sem dapibus, non rutrum dolor pretium.</p>
+                        <h6 class="mb-4">We want to be your one-stop-shop when you need urgent cash, extra income or any other financial services. </h6>
+
+                        <p class="mb-0">At Heat Finiancials and Investment, we strongly believe in integrity, empathy, respect, innovation and creating value in everything we do. We have a team of like-minded, creative and friendly people who are experts in their fields working together productively to create value to all our stakeholders with the single goal of being exceptional by all standards. </p>
                         <a href="#" class="btn credit-btn mt-50">Discover</a>
                     </div>
                 </div>
@@ -56,10 +57,17 @@ include("inc/header.php"); ?>
             <!-- Section Heading -->
             <div class="section-heading white">
                 <div class="line"></div>
-                <p>Bold desing and beyound</p>
-                <h2>Some Milestones</h2>
+                <p>Vision & Mission</p>
+                <h2>What <span>Drives</span> Us</h2>
             </div>
-            <h6 class="mb-0">Morbi ut dapibus dui. Sed ut iaculis elit, quis varius mauris. Integer ut ultricies orci, lobortis egestas sem. Duis non volutpat arcu, eu mollis tellus. Sed finibus aliquam neque sit amet sod ales. Maecenas sed magna tempor, efficitur maur is in, sollicitudin augue.</h6>
+            <h6 class="mb-0">
+<h2>Vision</h2> </br>
+
+To remain the leading technologically innovative retail financial institution in Africa.</br>
+
+<h2>Mission</h2> </br>
+
+To create a work place that provides equal opportunities for employees, convenient environment for clients, rewarding investments to our shareholders and value to our community.</h6>
 
             <div class="d-flex flex-wrap align-items-center justify-content-between">
                 <!-- Single Cool Facts -->

@@ -350,7 +350,7 @@ img {
     font-size: 18px;
     display: block; }
   #scrollUp:hover {
-    background-color:     ;
+    background-color: #ffbb38;
     color: #ffffff; }
 
 /* :: 3.7.0 Credit Button */
@@ -405,6 +405,7 @@ img {
     .header-area .top-header-area .top-contact-info {
       position: relative;
       z-index: 1; }
+
       .header-area .top-header-area .top-contact-info a {
         display: inline-block;
         color: #838383;
@@ -416,8 +417,9 @@ img {
         -webkit-box-align: center;
         -ms-flex-align: center;
         -ms-grid-row-align: center;
-        align-items: left;
+        align-items: center;
         font-weight: 600; }
+
         .header-area .top-header-area .top-contact-info a img {
           margin-right: 10px; }
         @media only screen and (max-width: 767px) {
@@ -430,6 +432,7 @@ img {
         @media only screen and (min-width: 768px) and (max-width: 991px) {
           .header-area .top-header-area .top-contact-info a {
             font-size: 13px; } }
+
   .header-area .credit-main-menu {
     position: relative;
     width: 100%;
@@ -467,7 +470,7 @@ img {
             font-size: 14px; } }
         @media only screen and (min-width: 768px) and (max-width: 991px) {
           .header-area .credit-main-menu .classy-navbar .classynav ul li a {
-            color: /*color change*/#215466; } }
+            color: #215466; } }/*color change*/
         @media only screen and (max-width: 767px) {
           .header-area .credit-main-menu .classy-navbar .classynav ul li a {
             color: #/*color change*/#215466; } }
@@ -542,6 +545,13 @@ img {
               line-height: 70px; } }
   .header-area .is-sticky .credit-main-menu {
     box-shadow: 0 7px 40px 0 rgba(0, 0, 0, 0.3); }
+
+    .header-apply-btn
+    {
+      z-index: 4;
+      position: static;
+
+    }
 
 /* :: 5.0 Hero Area CSS */
 .hero-area {

@@ -1,5 +1,6 @@
 <?php 
-$pageTitle=$pageTitle ;
+$pageTitle= $pageTitle;
+
 ?>
 <html lang="en">
 
@@ -35,25 +36,36 @@ $pageTitle=$pageTitle ;
     <!-- ##### Header Area Start ##### -->
     <header class="header-area">
         <!-- Top Header Area -->
+     <!-- apply button --> 
+    <a class="btn credit-btn box-shadow header-apply-btn" href="loan_apply.php" alt="apply" > APPLY </a>
+    
         <div class="top-header-area">
+
+                                     
+
             <div class="container h-100">
                 <div class="row h-100 align-items-center">
                     <div class="col-12 d-flex justify-content-between">
                         <!-- Logo Area -->
                         <div class="logo">
-                            <a href="./index.php"><img src="./img/core-img/Logo-H.jpg" alt="Heat Finance & Investments"></a>
+                            <a href="./index.php"><img src="./img/core-img/logo1.png" alt="Heat Finance & Investments"></a>
                         </div>
 
                         <!-- Top Contact Info -->
          <div class="top-contact-info d-flex align-items-center">
-    <a href="#" data-toggle="tooltip" data-placement="bottom" title="HEAT PLACE 25B Coker Road, Illupeju."><img src="./img/core-img/placeholder.png" alt="">
-     <span>HEAT PLACE <br> 25B Coker Road, Illupeju.</span></a>
-    <a href="#" data-toggle="tooltip" data-placement="bottom" title="heatfinanceandinvestment@gmail.com"><img src="./img/core-img/message.png" alt=""> <span>heatfinanceandinvestment@gmail.com</span>
+    
+    <a href="#" data-toggle="tooltip" data-placement="bottom" title="HEAT PLACE 25B Coker Road, Illupeju."><img src="./img/core-img/placeholder.png" alt=""> 
+                <span>HEAT PLACE <br> 25B Coker Road, Illupeju.</span></a>
+    <a href="#" data-toggle="tooltip" data-placement="bottom" title="heatfinanceandinvestment@gmail.com"><img src="./img/core-img/message.png" alt="">
+             <span>heatfinanceandinvestment@gmail.com</span>
     </a>
+            
                         </div>
                     </div>
                 </div>
             </div>
+                       
+
         </div>
 
         <!-- Navbar Area -->
@@ -85,11 +97,10 @@ $pageTitle=$pageTitle ;
                                             <li><a href="./index.php">Home</a></li>
                                             <li><a href="./services.php">Services</a></li>
                                             <li><a href="./about.php">About Us</a></li>
-                                            <li><a href="./about.php">About Us</a></li>
                                             <li><a href="./contact.php">Contact</a></li>
-                                          
                                         </ul>
                                     </li>
+                                     <li><a href="./about.php">About Us</a></li>
                                     <li><a href="./services.php">Services</a></li>
                             <!--
                                     <li><a href="#">Portfolio</a>

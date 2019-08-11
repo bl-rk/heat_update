@@ -13,7 +13,7 @@ $pageTitle="Contact";
                         <h2>Contact</h2>
                         <nav aria-label="breadcrumb">
                             <ol class="breadcrumb">
-                                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                                <li class="breadcrumb-item"><a href="index.php">Home</a></li>
                                 <li class="breadcrumb-item active" aria-current="page">Contact</li>
                             </ol>
                         </nav>
@@ -33,7 +33,7 @@ $pageTitle="Contact";
                     <div class="single-contact-area mb-100">
                         <!-- Logo -->
                         <a href="#" class="d-block mb-50"><img src="img/core-img/logo.png" alt=""></a>
-                        <p>You can contact us through any of our social media handles, our Email,Helpline, Office. We run 24/7 services.</p>
+                        <p>Be sure to contact us VIA any of our social media handles, Email addresses &amp; Holines. Our services operates 24/7 .</p>
                     </div>
                 </div>
 
@@ -59,9 +59,10 @@ $pageTitle="Contact";
                                     <img src="img/bg-img/26.jpg" alt="">
                                 </div>
                                 <div class="advisor-info">
-                                    <h6>Mr.Heat</h6>
-                                    <span>Advisor</span>
-                                    <p> +234 80236 11777</p>
+
+                                    <h6>Mr .Heat</h6>
+                                    <span>Operation Manager</span>
+                                    <p> +2348023611777</p>
                                 </div>
                             </div>
                         </div>
@@ -101,7 +102,7 @@ $pageTitle="Contact";
                                         <img src="img/core-img/message2.png" alt="">
                                     </div>
                                     <div class="text">
-                                        <p>heatfinanceandinvestment@gmail.com</p>
+                                        <p>heatfinanceandinvestments@gmail.com</p>
                                         <span>we reply in 24 hrs</span>
                                     </div>
                                 </div>
