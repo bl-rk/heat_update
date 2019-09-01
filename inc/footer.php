@@ -18,10 +18,10 @@
     <!-- ##### Newsletter Area End ###### -->
 
  <!-- ##### Footer Area Start ##### -->
-    <footer class="footer-area section-padding-100-0">
-        <div class="container">
-            <div class="row">
 
+    <footer class="footer-area section-padding-100-0">
+        <div class="container ">
+            <div class="row justify-content-center">
         
 
                 <!-- Single Footer Widget -->
@@ -74,8 +74,8 @@
                         </nav>
                     </div>
                 </div>
-<!--
-                <-- Single Footer Widget 
+
+                <!-- Single Footer Widget -->
                 <div class="col-12 col-sm-6 col-lg-3">
                     <div class="single-footer-widget mb-100">
                         <h5 class="widget-title">Latest News</h5>
@@ -126,7 +126,7 @@
                 </div>
             </div>
         </div>
--->
+
 
         <!-- Copywrite Area -->
         <div class="copywrite-area">

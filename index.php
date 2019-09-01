@@ -228,7 +228,7 @@ $pageTitle="Heat Finance &amp; Investments";
                             <i class="icon-profits"></i>
                         </div>
                         <div class="text">
-                            <h5>All the loans</h5>
+                            <a href="services.php?id=loans"><h5>All the loans</h5></a>
                             <p>We give out loans as fast as you can expect with low interest rate.</p>
                         </div>
                     </div>
@@ -241,7 +241,7 @@ $pageTitle="Heat Finance &amp; Investments";
                             <i class="icon-money-1"></i>
                         </div>
                         <div class="text">
-                            <h5>Easy and fast response</h5>
+                            <a href="services.php?id="><h5>Easy and fast response</h5></a>
                             <p>We attend to our customers request as fast as possible through any of our mediums and easily accessible by our customers</p>
                         </div>
                     </div>
@@ -254,7 +254,7 @@ $pageTitle="Heat Finance &amp; Investments";
                             <i class="icon-coin"></i>
                         </div>
                         <div class="text">
-                            <h5>No additional papers</h5>
+                            <a href="services.php?id="><h5>No additional papers</h5></a>
                             <p>With just little documentation you can get loan at a snap !!.</p>
                         </div>
                     </div>
@@ -267,7 +267,7 @@ $pageTitle="Heat Finance &amp; Investments";
                             <i class="icon-smartphone-1"></i>
                         </div>
                         <div class="text">
-                            <h5>Heat finance</h5>
+                            <a href="services.php?id="><h5>Heat finance</h5></a>
                             <p>Offering the best financial experience , with very swift customer response and services .</p>
                         </div>
                     </div>
@@ -280,7 +280,7 @@ $pageTitle="Heat Finance &amp; Investments";
                             <i class="icon-diamond"></i>
                         </div>
                         <div class="text">
-                            <h5>Heat investments</h5>
+                            <a href="services.php?id="><h5>Heat investments</h5></a>
                             <p>Lets invest , Put a call through to us to get our service pack on investments plans</p>
                         </div>
                     </div>
@@ -293,7 +293,7 @@ $pageTitle="Heat Finance &amp; Investments";
                             <i class="icon-piggy-bank"></i>
                         </div>
                         <div class="text">
-                            <h5>Heat Realtors</h5>
+                            <a href="services.php?id="><h5>Heat Realtors</h5></a>
                             <p>We buy, sell and Manage estate, You can also get a space in our estate</p>
                         </div>
                     </div>

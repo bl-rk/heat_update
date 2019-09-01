@@ -37,7 +37,7 @@ $pageTitle= $pageTitle;
     <header class="header-area">
         <!-- Top Header Area -->
      <!-- apply button --> 
-    <a class="btn credit-btn box-shadow header-apply-btn" href="loan_apply.php" alt="apply" > APPLY </a>
+    
     
         <div class="top-header-area">
 
@@ -45,9 +45,9 @@ $pageTitle= $pageTitle;
 
             <div class="container h-100">
                 <div class="row h-100 align-items-center">
-                    <div class="col-12 d-flex justify-content-between">
+                    <div class="col-12 d-flex justify-content-around">
                         <!-- Logo Area -->
-                        <div class="logo">
+                        <div class="logo ">
                             <a href="./index.php"><img src="./img/core-img/logo1.png" alt="Heat Finance & Investments"></a>
                         </div>
 
@@ -61,6 +61,7 @@ $pageTitle= $pageTitle;
     </a>
             
                         </div>
+                        <a class="btn credit-btn box-shadow header-apply-btn" href="loan_apply.php" alt="apply" > APPLY </a>
                     </div>
                 </div>
             </div>
@@ -92,6 +93,7 @@ $pageTitle= $pageTitle;
                             <div class="classynav">
                                 <ul>
                                     <li><a href="./index.php">Home</a></li>
+                                    <!--
                                     <li><a href="#">Pages</a>
                                         <ul class="dropdown">
                                             <li><a href="./index.php">Home</a></li>
@@ -100,6 +102,7 @@ $pageTitle= $pageTitle;
                                             <li><a href="./contact.php">Contact</a></li>
                                         </ul>
                                     </li>
+                                -->
                                      <li><a href="./about.php">About Us</a></li>
                                     <li><a href="./services.php">Services</a></li>
                             <!--

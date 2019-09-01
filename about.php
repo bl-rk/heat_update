@@ -60,17 +60,19 @@ include("inc/header.php"); ?>
                 <p>Vision & Mission</p>
                 <h2>What <span>Drives</span> Us</h2>
             </div>
-            <h6 class="mb-0">
-<h2>Vision</h2> </br>
+    
+    <h2>Vision</h2> </br>
 
-To remain the leading technologically innovative retail financial institution in Africa.</br>
+<p>To remain the leading technologically innovative retail financial institution in Africa.</p>
+</br>
 
 <h2>Mission</h2> </br>
 
-To create a work place that provides equal opportunities for employees, convenient environment for clients, rewarding investments to our shareholders and value to our community.</h6>
+<p>To create a work place that provides equal opportunities for employees, convenient environment for clients, rewarding investments to our shareholders and value to our community.</p>
+
 
             <div class="d-flex flex-wrap align-items-center justify-content-between">
-                <!-- Single Cool Facts -->
+                 <!--Single Cool Facts ->
                 <div class="single-cool-fact white d-flex align-items-center mt-50">
                     <div class="scf-icon mr-15">
                         <i class="icon-piggy-bank"></i>
@@ -80,7 +82,7 @@ To create a work place that provides equal opportunities for employees, convenie
                         <p>Clients</p>
                     </div>
                 </div>
-                <!-- Single Cool Facts -->
+                <!- Single Cool Facts ->
                 <div class="single-cool-fact white d-flex align-items-center mt-50">
                     <div class="scf-icon mr-15">
                         <i class="icon-coin"></i>
@@ -90,7 +92,7 @@ To create a work place that provides equal opportunities for employees, convenie
                         <p>Creditors</p>
                     </div>
                 </div>
-                <!-- Single Cool Facts -->
+                <!- Single Cool Facts ->
                 <div class="single-cool-fact white d-flex align-items-center mt-50">
                     <div class="scf-icon mr-15">
                         <i class="icon-diamond"></i>
@@ -100,6 +102,7 @@ To create a work place that provides equal opportunities for employees, convenie
                         <p>awards</p>
                     </div>
                 </div>
+            -->
             </div>
         </div>
         <!-- Cta Thumbnail -->
