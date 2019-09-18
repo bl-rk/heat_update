@@ -50,6 +50,7 @@ img {
     font-weight: 400;
     color: #232323;
     display: inline-block; }
+
     .classy-nav-container a:hover, .classy-nav-container a:focus {
       -webkit-transition-duration: 500ms;
       transition-duration: 500ms;
@@ -57,7 +58,8 @@ img {
       outline: none;
       font-size: 14px;
       font-weight: 400;
-      color: #1abc9c; }
+      color: #fcf9f9; }
+
   .classy-nav-container.classy-sticky {
     position: fixed;
     z-index: 1010;

@@ -51,18 +51,8 @@ $pageTitle= $pageTitle;
                             <a href="./index.php"><img src="./img/core-img/logo1.png" alt="Heat Finance & Investments"></a>
                         </div>
 
-                        <!-- Top Contact Info -->
-         <div class="top-contact-info d-flex align-items-center">
-    
-    <a href="#" data-toggle="tooltip" data-placement="bottom" title="HEAT PLACE 25B Coker Road, Illupeju."><img src="./img/core-img/placeholder.png" alt=""> 
-                <span>HEAT PLACE <br> 25B Coker Road, Illupeju.</span></a>
-    <a href="#" data-toggle="tooltip" data-placement="bottom" title="heatfinanceandinvestment@gmail.com"><img src="./img/core-img/message.png" alt="">
-             <span>heatfinanceandinvestment@gmail.com</span>
-    </a>
-            
-                        </div>
-                        <a class="btn credit-btn box-shadow header-apply-btn" href="loan_apply.php" alt="apply" > APPLY </a>
-                    </div>
+                   
+                       
                 </div>
             </div>
                        
@@ -154,13 +144,15 @@ $pageTitle= $pageTitle;
                         </div>
 
                         <!-- Contact -->
-                        <div class="contact">
-                            <a href="#"><img src="./img/core-img/call2.png" alt=""> +234 80236 11777</a>
-                        </div>
+                       
+
+                         <div class=>
+                            <a class="credit-btn btn box-shadow  header-apply-btn" href="loan_apply.php" alt="apply" > APPLY </a>
+                            </div>
                     </nav>
                 </div>
             </div>
         </div>
     </header>
-    <!-- ##### Header Area End ##### -->
+    <!-- ##### Header Area End ||box-shadow ||btn ##### -->
 

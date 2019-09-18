@@ -102,7 +102,7 @@ $pageTitle="Contact";
                                         <img src="img/core-img/message2.png" alt="">
                                     </div>
                                     <div class="text">
-                                        <p>heatfinanceandinvestments@gmail.com</p>
+                                        <p>heatfinancials@gmail.com</p>
                                         <span>we reply in 24 hrs</span>
                                     </div>
                                 </div>

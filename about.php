@@ -119,10 +119,10 @@ include("inc/header.php"); ?>
                     <div class="cta-content d-flex flex-wrap align-items-center justify-content-between">
                         <div class="cta-text">
                             <h4>Are you in need for a load? Get in touch with us.</h4>
-                            <p>Morbi ut dapibus dui. Sed ut iaculis elit, quis varius mauris. Integer ut ultricies orci, lobortis egestas sem.</p>
+                          <!--   <p>Morbi ut dapibus dui. Sed ut iaculis elit, quis varius mauris. Integer ut ultricies orci, lobortis egestas sem.</p> -->
                         </div>
                         <div class="cta-btn">
-                            <a href="#" class="btn credit-btn box-shadow">Read More</a>
+                            <a href="contact.php" class="btn credit-btn box-shadow">Contact Us</a>
                         </div>
                     </div>
                 </div>

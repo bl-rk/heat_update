@@ -251,6 +251,7 @@ img {
     letter-spacing: 2px;
     color: #a5a5a5;
     text-transform: uppercase; }
+
   .section-heading h2 {
     font-size: 36px;
     color: #212121;
@@ -274,6 +275,7 @@ img {
     margin-left: auto;
     margin-right: auto; }
 
+ 
 .box-shadow {
   position: relative;
   z-index: 1; }
@@ -350,14 +352,14 @@ img {
     font-size: 18px;
     display: block; }
   #scrollUp:hover {
-    background-color: #ffbb38;
+    background-color: #ff4438;
     color: #ffffff; }
 
 /* :: 3.7.0 Credit Button */
 .credit-btn {
   -webkit-transition-duration: 500ms;
   transition-duration: 500ms;
-  background-color: #ffbb38;
+  background-color: #ee7759;
   position: relative;
   z-index: 1;
   display: inline-block;
@@ -373,13 +375,13 @@ img {
   .credit-btn:hover, .credit-btn:focus {
     font-size: 14px;
     font-weight: 700;
-    background-color: /*color change*/#215466;
+    background-color: /*color change*/#ff4438;
     color: #ffffff; }
   .credit-btn.btn-2 {
     background-color: /*color change*/#215466;
     color: #ffffff; }
     .credit-btn.btn-2:hover, .credit-btn.btn-2:focus {
-      background-color: #ffbb38;
+      background-color: #ff4438;
       color: #ffffff; }
   .credit-btn.btn-3 {
     background-color: transparent;
@@ -400,8 +402,8 @@ img {
     position: relative;
     z-index: 1;
     width: 100%;
-    height: 80px;
-    background-color: #f2f4f6; }
+    height: 0px /* left empty for an update */;
+    background-color: #f2fafc; }
     .header-area .top-header-area .top-contact-info {
       position: relative;
       z-index: 1; }
@@ -448,7 +450,7 @@ img {
       content: '';
       z-index: 1; }
     .header-area .credit-main-menu .classy-nav-container {
-      background-color: transparent; }
+      background-color: #215466; }
     .header-area .credit-main-menu .classy-navbar {
       height: 85px;
       padding: 0;
@@ -464,7 +466,7 @@ img {
         padding: 0 15px;
         color: #ffffff; }
         .header-area .credit-main-menu .classy-navbar .classynav ul li a:hover, .header-area .credit-main-menu .classy-navbar .classynav ul li a:focus {
-          color: #ffbb38; }
+          color: #ff4438; }
         @media only screen and (min-width: 992px) and (max-width: 1199px) {
           .header-area .credit-main-menu .classy-navbar .classynav ul li a {
             font-size: 14px; } }
@@ -577,7 +579,7 @@ img {
       border-radius: 50%;
       margin: 0 6px; }
       .hero-area .owl-dots .owl-dot.active {
-        background-color: #ffbb38; }
+        background-color: #ff4438; }
   .hero-area .owl-prev,
   .hero-area .owl-next {
     position: absolute;
@@ -602,7 +604,7 @@ img {
         left: 10px; } }
     .hero-area .owl-prev:hover,
     .hero-area .owl-next:hover {
-      background-color: #ffbb38;
+      background-color: #ff4438;
       color: #ffffff; }
   .hero-area .owl-next {
     left: auto;
@@ -647,7 +649,7 @@ img {
     z-index: 10;
     width: 0;
     height: 2px;
-    background-color: #ffbb38;
+    background-color: #ff4438;
     left: 0;
     bottom: 0;
     -webkit-animation: slide-du-indicator linear 10000ms infinite;
@@ -660,14 +662,15 @@ img {
       font-weight: 400;
       color: #ffffff;
       margin-bottom: 15px; }
+
     .single-slide .welcome-text h2 {
       font-size: 70px;
       color: #ffffff;
-      font-weight: 600;
+      font-weight: 500;
       margin-bottom: 10px;
       text-transform: uppercase; }
       .single-slide .welcome-text h2 span {
-        color: #ffbb38; }
+        color: #ff4438; }
       @media only screen and (min-width: 992px) and (max-width: 1199px) {
         .single-slide .welcome-text h2 {
           font-size: 48px; } }
@@ -680,6 +683,29 @@ img {
     .single-slide .welcome-text p {
       font-size: 16px;
       color: #ffffff; }
+
+/* for the first slider text */
+      .single-slide .welcome-text h3 {
+      font-size: 50px;
+      color: #ffffff;
+      font-weight: 500;
+      margin-bottom: 10px;
+      text-transform: uppercase; }
+      .single-slide .welcome-text h3 span {
+        color: #ff4438; }
+      @media only screen and (min-width: 992px) and (max-width: 1199px) {
+        .single-slide .welcome-text h3 {
+          font-size: 40px; } }
+      @media only screen and (min-width: 768px) and (max-width: 991px) {
+        .single-slide .welcome-text h3 {
+          font-size: 38px; } }
+      @media only screen and (max-width: 767px) {
+        .single-slide .welcome-text h3 {
+          font-size: 24px; } }
+    .single-slide .welcome-text p {
+      font-size: 16px;
+      color: #ffffff; }
+
 
 @-webkit-keyframes slide-du-indicator {
   0% {
@@ -727,7 +753,7 @@ img {
       .single-features-area h5 {
         font-size: 15px; } }
   .single-features-area:hover h5 {
-    color: #ffbb38; }
+    color: #ff4438; }
 
 /* :: 7.0 Special Feature CSS */
 .special-feature-area {
@@ -838,13 +864,13 @@ img {
   .cta-area .cta-content {
     position: relative;
     z-index: 1;
-    padding: 100px 5%;
+    padding: 40px 5%;
     -webkit-box-flex: 0;
     -ms-flex: 0 0 50%;
     flex: 0 0 50%;
     max-width: 50%;
     width: 50%;
-    background-color: #69d9ff; }
+    background-color: #ee7759; }
     @media only screen and (min-width: 768px) and (max-width: 991px) {
       .cta-area .cta-content {
         -webkit-box-flex: 0;
@@ -1089,7 +1115,7 @@ img {
         position: absolute;
         width: 130px;
         height: 45px;
-        background-color: #ffbb38;
+        background-color: #ee7759;
         border: none;
         border-radius: 0 30px 30px 0;
         top: 0;
@@ -1101,7 +1127,7 @@ img {
         cursor: pointer;
         z-index: 20; }
         .newsletter-area .nl-content form button:hover {
-          background-color: /*color change*/#215466; }
+          background-color: /*color change*/#ff4438; }
         .newsletter-area .nl-content form button:focus {
           outline: none;
           box-shadow: none; }
@@ -1190,7 +1216,7 @@ img {
     z-index: 1; }
     .footer-area .single-footer-widget .widget-title {
       font-size: 18px;
-      color: #ffbb38;
+      color: #ff4438;
       margin-bottom: 40px;
       font-weight: 400; }
     .footer-area .single-footer-widget ul li a {
@@ -1209,11 +1235,11 @@ img {
         top: 7px;
         left: 0;
         border-radius: 50%;
-        background-color: #ffbb38;
+        background-color: #ee7759;
         position: absolute;
         z-index: 1; }
       .footer-area .single-footer-widget ul li a:hover, .footer-area .single-footer-widget ul li a:focus {
-        color: #ffbb38; }
+        color: #ee7759; }
     .footer-area .single-footer-widget ul li:last-child a {
       margin-bottom: 0; }
   .footer-area .copywrite-area {
@@ -1689,9 +1715,9 @@ img {
   .single-service-area .text p {
     margin-bottom: 0; }
   .single-service-area:hover .icon, .single-service-area:focus .icon {
-    background-color: #ffbb38; }
+    background-color: #ff4438; }
   .single-service-area:hover .text h5, .single-service-area:focus .text h5 {
-    color: #ffbb38; }
+    color: #ff4438; }
 
 .single-cool-fact {
   position: relative;

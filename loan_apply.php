@@ -29,7 +29,7 @@ $pageTitle="Apply For Loan";
 
                                         <div class="col-lg-6">
                                          <div class="form-group">
-                                                <input class="form-control" id="name" placeholder="Your Name" type="text">
+                                                <input class="form-control" id="name" placeholder="Full Name" type="text">
                                             </div>
                                         </div>
 
@@ -42,7 +42,7 @@ $pageTitle="Apply For Loan";
                                        <div class="col-lg-6">
                                        		<div class="form-group">
 
-                                       	Gender:
+                                       <p>	Gender: </p>
                                        			<select name="Gender">
                                        				<option value="Male"> Male</option>
                                        				<option value="Male"> Female</option>
@@ -53,7 +53,7 @@ $pageTitle="Apply For Loan";
                                        <div class="col-lg-6">
                                        		<div class="form-group">
 
-                                       	Marital Status:
+                                       <p>	Marital Status: </p>
                                        			<select name="Marital Status">
                                        				<option value="Male"> Single</option>
                                        				<option value="Male"> Married</option>

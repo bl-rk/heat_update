@@ -1,11 +1,34 @@
 <?php
 $pageTitle="Heat Finance &amp; Investments";
+
  include("inc/header.php");
 
 ?>
 <!-- ##### Hero Area Start ##### -->
     <div class="hero-area">
         <div class="hero-slideshow owl-carousel">
+
+<!-- Single Slide -->
+            <div class="single-slide bg-img">
+                <!-- Background Image-->
+                <div class="slide-bg-img bg-img bg-overlay" style="background-image: url(img/bg-img/f.jpeg);"></div>
+                <!-- Welcome Text -->
+                <div class="container h-100">
+                    <div class="row h-100 align-items-center justify-content-center">
+                        <div class="col-12 col-lg-9">
+                            <div class="welcome-text text-center">
+                             <!--    <h6 data-animation="fadeInDown" data-delay="100ms">Heat Finance &amp; Investments </h6> -->
+                                <h3 data-animation="fadeInDown" data-delay="300ms"> Heat <span> Finance &amp; </span>Investments </h3>
+                                <p data-animation="fadeInDown" data-delay="500ms">... CREDIT @ THE SPEED OF LIGHT</p>
+                                <a href="contact.php" class="btn credit-btn mt-50" data-animation="fadeInDown" data-delay="700ms">Make Your Move Now </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="slide-du-indicator"></div>
+                </div>
+         </div>
+                
 
  <!-- Single Slide -->
             <div class="single-slide bg-img">
@@ -16,17 +39,21 @@ $pageTitle="Heat Finance &amp; Investments";
                     <div class="row h-100 align-items-center justify-content-center">
                         <div class="col-12 col-lg-9">
                             <div class="welcome-text text-center">
-                                <h6 data-animation="fadeInDown" data-delay="100ms">Heat Finance </h6>
-                                <h2 data-animation="fadeInDown" data-delay="300ms"> Heat <span> Finance</span>..</h2>
-                                <p data-animation="fadeInDown" data-delay="500ms">The Finance Relationship with a trustworthy and reliable team. </p>
+                             <!--    <h6 data-animation="fadeInDown" data-delay="100ms">Heat Money </h6> -->
+                                <h2 data-animation="fadeInDown" data-delay="300ms"> Heat <span> Money</span>..</h2>
+                                <p data-animation="fadeInDown" data-delay="500ms">Credit At the speed of light </p>
                                 <a href="contact.php" class="btn credit-btn mt-50" data-animation="fadeInDown" data-delay="700ms">Make Your Move Now </a>
                             </div>
                         </div>
                     </div>
+                     <!-- Slide Duration Indicator -->
+                <div class="slide-du-indicator"></div>
                 </div>
-
+                
+            <div class="slide-du-indicator"></div>
             <!-- Single Slide -->
             <div class="single-slide bg-img">
+
                 <!-- Background Image-->
                 <div class="slide-bg-img bg-img bg-overlay" style="background-image: url(img/bg-img/A.jpg);"></div>
                 <!-- Welcome Text -->
@@ -34,8 +61,8 @@ $pageTitle="Heat Finance &amp; Investments";
                     <div class="row h-100 align-items-center justify-content-center">
                         <div class="col-12 col-lg-9">
                             <div class="welcome-text text-center">
-                                <h6 data-animation="fadeInUp" data-delay="100ms">Heat Money</h6>
-                                <h2 data-animation="fadeInUp" data-delay="300ms">Feel <span>The</span>Heat.</h2>
+                              <!--   <h6 data-animation="fadeInUp" data-delay="100ms">Heat Investments</h6> -->
+                                <h2 data-animation="fadeInUp" data-delay="300ms">Heat <span>Investment</span>.</h2>
                                 <p data-animation="fadeInUp" data-delay="500ms"> A new innovation set, With assurance for your own intrest financially and moneytrilly  </p>
                                 <a href="contact.php" class="btn credit-btn mt-50" data-animation="fadeInUp" data-delay="700ms">Get Your LOANS Now</a>
                             </div>
@@ -46,8 +73,7 @@ $pageTitle="Heat Finance &amp; Investments";
                 <div class="slide-du-indicator"></div>
             </div>
 
-                <!-- Slide Duration Indicator -->
-                <div class="slide-du-indicator"></div>
+                
             </div>
 
             <!-- Single Slide -->
@@ -59,8 +85,8 @@ $pageTitle="Heat Finance &amp; Investments";
                     <div class="row h-100 align-items-center justify-content-center">
                         <div class="col-12 col-lg-9">
                             <div class="welcome-text text-center">
-                                <h6 data-animation="fadeInUp" data-delay="100ms">Heat Consultancy</h6>
-                                <h2 data-animation="fadeInUp" data-delay="300ms">Loans <span>Made </span> Easy</h2>
+                                <!-- <h6 data-animation="fadeInUp" data-delay="100ms">Heat </h6> -->
+                                <h2 data-animation="fadeInUp" data-delay="300ms">Heat <span>Consultancy </span> </h2>
                                 <p data-animation="fadeInUp" data-delay="500ms">The teams are always with your best intrest in mind, Make a move, Achieve your goal !!.</p>
                                 <a href="contact.php" class="btn credit-btn mt-50" data-animation="fadeInUp" data-delay="700ms">Let do buisness</a>
                             </div>
@@ -80,9 +106,9 @@ $pageTitle="Heat Finance &amp; Investments";
                     <div class="row h-100 align-items-center justify-content-center">
                         <div class="col-12 col-lg-9">
                             <div class="welcome-text text-center">
-                                <h6 data-animation="fadeInDown" data-delay="100ms">Heat Realtors</h6>
-                                <h2 data-animation="fadeInDown" data-delay="300ms"><span> Housing</span> Logistics</h2>
-                                <p data-animation="fadeInDown" data-delay="500ms">A Subsidiary pf the Heat Finance &amp; Investments Team, A Standard Realtor with Expertraites on HOUSING LOGISTICS</p>
+                              <!--   <h6 data-animation="fadeInDown" data-delay="100ms">Heat Realtors</h6> -->
+                                <h2 data-animation="fadeInDown" data-delay="300ms"><span> Heat</span> Realtors</h2>
+                                <p data-animation="fadeInDown" data-delay="500ms">A Subsidiary of the Heat Finance &amp; Investments Team, A standard realtor with expertriates on HOUSING LOGISTICS</p>
                                 <a href="services.php" class="btn credit-btn mt-50" data-animation="fadeInDown" data-delay="700ms">Learn More</a>
                             </div>
                         </div>
@@ -224,12 +250,16 @@ $pageTitle="Heat Finance &amp; Investments";
                 <!-- Single Service Area -->
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="single-service-area d-flex mb-100 wow fadeInUp" data-wow-delay="200ms">
+
+                    <a href="serv_details.php?cat=loan">
                         <div class="icon">
-                            <i class="icon-profits"></i>
+                            <i class="icon-money-1"></i>
                         </div>
+                    </a>
                         <div class="text">
-                            <a href="services.php?id=loans"><h5>All the loans</h5></a>
+                            <a href="serv_details.php?cat=loan"><h5>Heat Money</h5>
                             <p>We give out loans as fast as you can expect with low interest rate.</p>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -237,12 +267,15 @@ $pageTitle="Heat Finance &amp; Investments";
                 <!-- Single Service Area -->
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="single-service-area d-flex mb-100 wow fadeInUp" data-wow-delay="300ms">
+                    <a href="serv_details.php?cat=consultancy">
                         <div class="icon">
-                            <i class="icon-money-1"></i>
+                            <i class="icon-profits"></i>
                         </div>
+                    </a>
                         <div class="text">
-                            <a href="services.php?id="><h5>Easy and fast response</h5></a>
+                            <a href="serv_details.php?cat=consultancy"><h5>Heat Consults</h5>
                             <p>We attend to our customers request as fast as possible through any of our mediums and easily accessible by our customers</p>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -250,12 +283,15 @@ $pageTitle="Heat Finance &amp; Investments";
                 <!-- Single Service Area -->
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="single-service-area d-flex mb-100 wow fadeInUp" data-wow-delay="400ms">
+                        <a href="serv_details.php?cat=realtor">
                         <div class="icon">
-                            <i class="icon-coin"></i>
+                          <i class="icon-coin" ></i>
                         </div>
+                        </a>
                         <div class="text">
-                            <a href="services.php?id="><h5>No additional papers</h5></a>
+                            <a href="serv_details.php?cat=realtor"><h5>Heat Realtors</h5>
                             <p>With just little documentation you can get loan at a snap !!.</p>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -263,12 +299,16 @@ $pageTitle="Heat Finance &amp; Investments";
                 <!-- Single Service Area -->
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="single-service-area d-flex mb-100 wow fadeInUp" data-wow-delay="500ms">
+
+                        <a href="serv_details.php?cat=investment">
                         <div class="icon">
                             <i class="icon-smartphone-1"></i>
                         </div>
+                    </a>
                         <div class="text">
-                            <a href="services.php?id="><h5>Heat finance</h5></a>
+                            <a href="serv_details.php?cat=investment"><h5>Heat Investment </h5>
                             <p>Offering the best financial experience , with very swift customer response and services .</p>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -276,12 +316,15 @@ $pageTitle="Heat Finance &amp; Investments";
                 <!-- Single Service Area -->
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="single-service-area d-flex mb-100 wow fadeInUp" data-wow-delay="600ms">
+                        <a href="serv_details.php?cat=#">
                         <div class="icon">
                             <i class="icon-diamond"></i>
                         </div>
+                    </a>
                         <div class="text">
-                            <a href="services.php?id="><h5>Heat investments</h5></a>
+                            <a href="serv_details.php?cat=investment"><h5>Heat Insurance</h5>
                             <p>Lets invest , Put a call through to us to get our service pack on investments plans</p>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -289,12 +332,15 @@ $pageTitle="Heat Finance &amp; Investments";
                 <!-- Single Service Area -->
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="single-service-area d-flex mb-100 wow fadeInUp" data-wow-delay="700ms">
+                        <a href="serv_details.php?cat=realtor">
                         <div class="icon">
                             <i class="icon-piggy-bank"></i>
                         </div>
+                    </a>
                         <div class="text">
-                            <a href="services.php?id="><h5>Heat Realtors</h5></a>
+                            <a href="serv_details.php?cat=realtor"><h5>Heat Realtors</h5>
                             <p>We buy, sell and Manage estate, You can also get a space in our estate</p>
+                            </a>
                         </div>
                     </div>
                 </div>
