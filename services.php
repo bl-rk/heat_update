@@ -30,7 +30,7 @@
     </section>
     <!-- ##### Breadcrumb Area End ##### -->
 
-     <!-- ##### Services Area Start ###### -->
+       <!-- ##### Services Area Start ###### -->
     <section class="services-area section-padding-100-0">
         <div class="container">
             <div class="row">
@@ -48,9 +48,12 @@
                 <!-- Single Service Area -->
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="single-service-area d-flex mb-100 wow fadeInUp" data-wow-delay="200ms">
+
+                    <a href="serv_details.php?cat=loan">
                         <div class="icon">
                             <i class="icon-money-1"></i>
                         </div>
+                    </a>
                         <div class="text">
                             <a href="serv_details.php?cat=loan"><h5>Heat Money</h5>
                             <p>We give out loans as fast as you can expect with low interest rate.</p>
@@ -62,12 +65,15 @@
                 <!-- Single Service Area -->
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="single-service-area d-flex mb-100 wow fadeInUp" data-wow-delay="300ms">
+                    <a href="serv_details.php?cat=consultancy">
                         <div class="icon">
                             <i class="icon-profits"></i>
                         </div>
+                    </a>
                         <div class="text">
-                            <a href="services.php?cat=consultancy"><h5>Heat Consults</h5></a>
+                            <a href="serv_details.php?cat=consultancy"><h5>Heat Consults</h5>
                             <p>We attend to our customers request as fast as possible through any of our mediums and easily accessible by our customers</p>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -75,12 +81,15 @@
                 <!-- Single Service Area -->
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="single-service-area d-flex mb-100 wow fadeInUp" data-wow-delay="400ms">
+                        <a href="serv_details.php?cat=realtor">
                         <div class="icon">
-                            <i class="icon-coin"></i>
+                          <i class="icon-coin" ></i>
                         </div>
+                        </a>
                         <div class="text">
-                            <a href="services.php?cat=realtor"><h5>Heat Realtors</h5></a>
+                            <a href="serv_details.php?cat=realtor"><h5>Heat Realtors</h5>
                             <p>With just little documentation you can get loan at a snap !!.</p>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -88,12 +97,16 @@
                 <!-- Single Service Area -->
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="single-service-area d-flex mb-100 wow fadeInUp" data-wow-delay="500ms">
+
+                        <a href="serv_details.php?cat=investment">
                         <div class="icon">
                             <i class="icon-smartphone-1"></i>
                         </div>
+                    </a>
                         <div class="text">
-                            <a href="services.php?cat=investment"><h5> Investment </h5></a>
+                            <a href="serv_details.php?cat=investment"><h5>Heat Investment </h5>
                             <p>Offering the best financial experience , with very swift customer response and services .</p>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -101,12 +114,15 @@
                 <!-- Single Service Area -->
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="single-service-area d-flex mb-100 wow fadeInUp" data-wow-delay="600ms">
+                        <a href="serv_details.php?cat=#">
                         <div class="icon">
                             <i class="icon-diamond"></i>
                         </div>
+                    </a>
                         <div class="text">
-                            <a href="services.php?cat=investment"><h5>Heat investments</h5></a>
+                            <a href="serv_details.php?cat=investment"><h5>Heat Insurance</h5>
                             <p>Lets invest , Put a call through to us to get our service pack on investments plans</p>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -114,12 +130,15 @@
                 <!-- Single Service Area -->
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="single-service-area d-flex mb-100 wow fadeInUp" data-wow-delay="700ms">
+                        <a href="serv_details.php?cat=realtor">
                         <div class="icon">
                             <i class="icon-piggy-bank"></i>
                         </div>
+                    </a>
                         <div class="text">
-                            <a href="services.php"><h5>Heat Realtors</h5></a>
+                            <a href="serv_details.php?cat=realtor"><h5>Heat Realtors</h5>
                             <p>We buy, sell and Manage estate, You can also get a space in our estate</p>
+                            </a>
                         </div>
                     </div>
                 </div>

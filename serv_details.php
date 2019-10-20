@@ -5,6 +5,7 @@
 
 include("inc/service_data.php");
 
+// function for header title geting the section and category tag
 if(isset($_GET["cat"])){
 
     if ($_GET["cat"] == "loan")
@@ -27,13 +28,12 @@ if(isset($_GET["cat"])){
     
 
 foreach ($serv_data as $item );
+
     
     
 
 
 // $pageTitle = $item["title"];
-
-
  include("inc/header.php"); 
 
 ?>

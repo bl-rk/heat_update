@@ -243,7 +243,7 @@ img {
     width: 25px;
     height: 5px;
     border-radius: 3px;
-    background-color: #ffbb38;
+    background-color: #f70707;
     margin-bottom: 20px; }
   .section-heading p {
     font-size: 12px;
@@ -1041,7 +1041,7 @@ img {
         color: #ffffff;
         text-align: center;
         margin-right: 15px;
-        background-color: #ffbb38; }
+        background-color: #ff4438; }
       .contact--area .contact-content .single-contact-content .text p {
         font-weight: 600;
         color: #212121;
@@ -1289,7 +1289,7 @@ img {
     .breadcrumb-area .breadcrumb-content .breadcrumb .breadcrumb-item::before {
       color: #ffffff; }
     .breadcrumb-area .breadcrumb-content .breadcrumb .breadcrumb-item.active {
-      color: #ffbb38;
+      color: #ff4438;
       font-size: 16px;
       font-weight: 600; }
     .breadcrumb-area .breadcrumb-content .breadcrumb .breadcrumb-item a {
@@ -1297,7 +1297,7 @@ img {
       color: #ffffff;
       font-weight: 600; }
       .breadcrumb-area .breadcrumb-content .breadcrumb .breadcrumb-item a:hover {
-        color: #ffbb38; }
+        color: #ff4438; }
 
 .single-latest-news-area {
   position: relative;
@@ -1585,7 +1585,7 @@ img {
 .contact-advisor {
   position: relative;
   z-index: 1;
-  background-color: #69d9ff;
+  background-color: #ff4438;
   padding: 35px; }
   .contact-advisor h5 {
     font-size: 18px;
@@ -1808,7 +1808,7 @@ img {
     .single-accordion h6 a.collapsed {
       -webkit-transition-duration: 500ms;
       transition-duration: 500ms;
-      background-color: #ffbb38;
+      background-color: #ee7759;
       color: #ffffff; }
 .single-accordion .accordion-content {
   border-top: 0 solid transparent;

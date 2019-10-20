@@ -7,6 +7,7 @@
 	}
 
 ?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -61,6 +62,33 @@
 
 
 	</div>
-		
+
+	<form method="post">
+			<p>
+			<input type="text" name="post_title" >
+			</p>
+		</br>
+			<p>
+			<textarea name="post_content"></textarea>
+			</p>
+			</br>
+		<p>
+			<label for="post_category">Cat 1</label>
+			<input type="checkbox" name="post_category[first]" value="cat1">
+		</br>
+			<label for="post_category">Cat 2</label>
+			<input type="checkbox" name="post_category[second]" value="cat2">
+		</p>
+
+		<p>
+			<input type="submit" name="submit">
+		</p>
+
+	</form>
+
+		<pre>
+		<?php print_r($_POST); ?> 
+		</pre>
+
 </body>
 </html>

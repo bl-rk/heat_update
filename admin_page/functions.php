@@ -61,9 +61,10 @@
 		if (count($errors) == 0) {
 			$password = md5($password_1);//encrypt the password before saving in the database
 
+
 		
 				$query = "INSERT INTO Service_content ( Title, content_text, image) 
-						  VALUES( '$title', '$content_text', '$password')";
+						  VALUES( '$title', '$content_text', '$Image')";
 				mysqli_query($db, $query);
 				$_SESSION['success']  = "New content updated successfully !!";
 				header('location: home.php');

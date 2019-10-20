@@ -83,18 +83,32 @@ $pageTitle= $pageTitle;
                             <div class="classynav">
                                 <ul>
                                     <li><a href="./index.php">Home</a></li>
-                                    <!--
-                                    <li><a href="#">Pages</a>
+                                    
+                                    <li><a href="./services.php">Products & Services</a>
+                                        <ul class="dropdown">
+                                            <li><a href="./index.php">Heat Money</a></li>
+                                            <li><a href="./services.php">Heat Finance</a></li>
+                                            <li><a href="./about.php">Heat Realtors</a></li>
+                                            <li><a href="./contact.php">Heat Consult</a></li>
+                                        </ul>
+                                    </li>
+
+                                        <li><a href="" title="Corporate Social Investments">CSR</a></li>
+
+                                    <li><a href="./contact.php" title="Contact">Contact</a></li>
+
+                                     <li><a href="./about.php" title="About Us">About Us</a></li>
+
+                                    
+                                    <!-- <li><a href="#">Pages</a>
                                         <ul class="dropdown">
                                             <li><a href="./index.php">Home</a></li>
                                             <li><a href="./services.php">Services</a></li>
                                             <li><a href="./about.php">About Us</a></li>
                                             <li><a href="./contact.php">Contact</a></li>
                                         </ul>
-                                    </li>
-                                -->
-                                     <li><a href="./about.php">About Us</a></li>
-                                    <li><a href="./services.php">Services</a></li>
+                                    </li> -->
+
                             <!--
                                     <li><a href="#">Portfolio</a>
                                         <div class="megamenu">
@@ -136,8 +150,8 @@ $pageTitle= $pageTitle;
                                             </ul>
                                         </div>
                                 -->
-                                    </li>
-                                    <li><a href="./contact.php">Contact</a></li>
+                                  <!--  </li>  -->
+                                    
                                 </ul>
                             </div>
                             <!-- Nav End -->
@@ -147,7 +161,7 @@ $pageTitle= $pageTitle;
                        
 
                          <div class=>
-                            <a class="credit-btn btn box-shadow  header-apply-btn" href="loan_apply.php" alt="apply" > APPLY </a>
+                            <a class="credit-btn btn box-shadow  header-apply-btn" href="loan_apply.php" alt="apply "title="Apply For Loan" > APPLY </a>
                             </div>
                     </nav>
                 </div>

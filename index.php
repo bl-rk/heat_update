@@ -1,4 +1,5 @@
 <?php
+
 $pageTitle="Heat Finance &amp; Investments";
 
  include("inc/header.php");
@@ -19,7 +20,10 @@ $pageTitle="Heat Finance &amp; Investments";
                             <div class="welcome-text text-center">
                              <!--    <h6 data-animation="fadeInDown" data-delay="100ms">Heat Finance &amp; Investments </h6> -->
                                 <h3 data-animation="fadeInDown" data-delay="300ms"> Heat <span> Finance &amp; </span>Investments </h3>
-                                <p data-animation="fadeInDown" data-delay="500ms">... CREDIT @ THE SPEED OF LIGHT</p>
+
+                                <p data-animation="fadeInDown" data-delay="500ms">Credit,<span> Realtor </span>, Investment, Insurance, Consulting</p>
+                                 <p> Enhancing the Financial Wellbeing of Nigerians through quick and affordable Loans </p>
+                               
                                 <a href="contact.php" class="btn credit-btn mt-50" data-animation="fadeInDown" data-delay="700ms">Make Your Move Now </a>
                             </div>
                         </div>
@@ -41,8 +45,8 @@ $pageTitle="Heat Finance &amp; Investments";
                             <div class="welcome-text text-center">
                              <!--    <h6 data-animation="fadeInDown" data-delay="100ms">Heat Money </h6> -->
                                 <h2 data-animation="fadeInDown" data-delay="300ms"> Heat <span> Money</span>..</h2>
-                                <p data-animation="fadeInDown" data-delay="500ms">Credit At the speed of light </p>
-                                <a href="contact.php" class="btn credit-btn mt-50" data-animation="fadeInDown" data-delay="700ms">Make Your Move Now </a>
+                                <p data-animation="fadeInDown" data-delay="500ms">... CREDIT @ THE SPEED OF LIGHT  </p>
+                                <a href="contact.php" class="btn credit-btn mt-50" data-animation="fadeInDown" data-delay="700ms">Make your MOVE now</a>
                             </div>
                         </div>
                     </div>
@@ -87,7 +91,7 @@ $pageTitle="Heat Finance &amp; Investments";
                             <div class="welcome-text text-center">
                                 <!-- <h6 data-animation="fadeInUp" data-delay="100ms">Heat </h6> -->
                                 <h2 data-animation="fadeInUp" data-delay="300ms">Heat <span>Consultancy </span> </h2>
-                                <p data-animation="fadeInUp" data-delay="500ms">The teams are always with your best intrest in mind, Make a move, Achieve your goal !!.</p>
+                                <p data-animation="fadeInUp" data-delay="500ms">The teams are always with your best interest in mind, Make a move, Achieve your goal !!.</p>
                                 <a href="contact.php" class="btn credit-btn mt-50" data-animation="fadeInUp" data-delay="700ms">Let do buisness</a>
                             </div>
                         </div>
