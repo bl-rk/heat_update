@@ -61,10 +61,21 @@ foreach ($serv_data as $item );
         </div>
     </section>
     <!-- ##### Breadcrumb Area End ##### -->
+    <!-- Major heading for site service data start -->
+</br>
+
+ <div class="container">
+
+     <div class="section-heading text-center mb-100 wow fadeInUp" data-wow-delay="100ms">
+                        <div class="line"></div>
+                        <p>Complete Exclusive Package on...</p>
+                        <h2><?php echo "$pageTitle"; ?></h2>
+                    </div>
+               
 
   <!-- ##### Service content Start ###### -->
     <section class="about-area section-padding-100-0">
-        <div class="container">
+       
             <div class="row align-items-center">
                 <div class="col-12 col-md-6">
                     <div class="about-content mb-100">
@@ -78,10 +89,6 @@ foreach ($serv_data as $item );
                         <h6 class="mb-4"><?php echo $item["sub_content"]; ?> </h6>
 
                         <p class="mb-0"><?php echo $item["content"]; ?></p>
-
-
-
-
 
                         <a href="inc/apply.php" class="btn credit-btn mt-50">Apply Now</a>
                     </div>
@@ -104,7 +111,7 @@ foreach ($serv_data as $item );
                 <div class="col-12">
                     <div class="elements-title mb-30">
                         <div class="line"></div>
-                        <h2>Accordians &amp; Tabs</h2>
+                        <h2>Heat Money <small> (loan packs) </small> </h2>
                     </div>
                 </div>
 
@@ -113,15 +120,28 @@ foreach ($serv_data as $item );
                     <div class="accordions mb-100" id="accordion" role="tablist" aria-multiselectable="true">
                         <!-- single accordian area -->
                         <div class="panel single-accordion">
-                            <h6><a role="button" class="" aria-expanded="true" aria-controls="collapseOne" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Mauris gravida neque augue, euismod
+                            <h6><a role="button" class="collapsed" aria-expanded="true" aria-controls="collapseOne" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">HEAT Salary Advance (HSA) 
                                     <span class="accor-open"><i class="fa fa-plus" aria-hidden="true"></i></span>
                                     <span class="accor-close"><i class="fa fa-minus" aria-hidden="true"></i></span>
                                     </a></h6>
                             <div id="collapseOne" class="accordion-content collapse show">
-                                <p>Nam tristique ex vel magna tincidunt, ut porta nisl finibus. Vivamus eu dolor eu quam varius rutrum. Fusce nec justo id sem aliquam fringilla nec non lacus. Suspendisse eget lobortis nisi, ac cursus odio. Vivamus nibh velit, rutrum at ipsum ac, dignissim iaculis ante.</p>
+                                <p>Provides salary advance or Cash Loans to salary and other income earners, you can get upto 300% of net monthly salary/income as loan, repayment is based on monthly income or salary deducted at source or via direct debit order or post-dated cheques. No collateral is required. Repayment durationupto 6 months.</p>
                             </div>
                         </div>
-                        <!-- single accordian area -->
+
+
+                        <div class="panel single-accordion">
+                            <h6>
+                                <a role="button" class="collapsed" aria-expanded="true" aria-controls="collapseTwo" data-parent="#accordion" data-toggle="collapse" href="#collapseTwo">HEAT Loan-2-Staff (HLS)
+                                        <span class="accor-open"><i class="fa fa-plus" aria-hidden="true"></i></span>
+                                        <span class="accor-close"><i class="fa fa-minus" aria-hidden="true"></i></span>
+                                        </a>
+                            </h6>
+                            <div id="collapseTwo" class="accordion-content collapse">
+                                <p>This product is designed for organisations with minimum staff strength of 20 employees, it provides the staff of partner organisations with concessionary loans at reduced interest rate. The partner organization must be a CAC registered company, with characteristics of a going concern..</p>
+                            </div>
+                        </div>
+                      <!--   <!- single accordian area ->
                         <div class="panel single-accordion">
                             <h6>
                                 <a role="button" class="collapsed" aria-expanded="true" aria-controls="collapseTwo" data-parent="#accordion" data-toggle="collapse" href="#collapseTwo">Pellentesque sit amet velit a libero viverra
@@ -133,7 +153,7 @@ foreach ($serv_data as $item );
                                 <p>Nam tristique ex vel magna tincidunt, ut porta nisl finibus. Vivamus eu dolor eu quam varius rutrum. Fusce nec justo id sem aliquam fringilla nec non lacus. Suspendisse eget lobortis nisi, ac cursus odio. Vivamus nibh velit, rutrum at ipsum ac, dignissim iaculis ante.</p>
                             </div>
                         </div>
-                        <!-- single accordian area -->
+                        <!- single accordian area ->
                         <div class="panel single-accordion">
                             <h6>
                                 <a role="button" aria-expanded="true" aria-controls="collapseThree" class="collapsed" data-parent="#accordion" data-toggle="collapse" href="#collapseThree">Quisque fringilla orci lacus, ut vestibulum
@@ -144,7 +164,7 @@ foreach ($serv_data as $item );
                             <div id="collapseThree" class="accordion-content collapse">
                                 <p>Nam tristique ex vel magna tincidunt, ut porta nisl finibus. Vivamus eu dolor eu quam varius rutrum. Fusce nec justo id sem aliquam fringilla nec non lacus. Suspendisse eget lobortis nisi, ac cursus odio. Vivamus nibh velit, rutrum at ipsum ac, dignissim iaculis ante.</p>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
 
@@ -153,13 +173,13 @@ foreach ($serv_data as $item );
                     <div class="credit-tabs-content">
                         <ul class="nav nav-tabs" id="myTab" role="tablist">
                             <li class="nav-item">
-                                <a class="nav-link" id="tab--1" data-toggle="tab" href="#tab1" role="tab" aria-controls="tab1" aria-selected="false">Mauris gravida</a>
+                                <a class="nav-link" id="tab--1" data-toggle="tab" href="#tab1" role="tab" aria-controls="tab1" aria-selected="false">FAQ</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" id="tab--2" data-toggle="tab" href="#tab2" role="tab" aria-controls="tab2" aria-selected="false">Pellentesque</a>
+                                <a class="nav-link" id="tab--2" data-toggle="tab" href="#tab2" role="tab" aria-controls="tab2" aria-selected="false">Procedure</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" id="tab--3" data-toggle="tab" href="#tab3" role="tab" aria-controls="tab3" aria-selected="true">Quisque</a>
+                                <a class="nav-link active" id="tab--3" data-toggle="tab" href="#tab3" role="tab" aria-controls="tab3" aria-selected="true">Duration</a>
                             </li>
                         </ul>
 
@@ -172,9 +192,9 @@ foreach ($serv_data as $item );
                                     </div>
                                 </div>
                             </div>
-                            <div class="tab-pane fade" id="tab2" role="tabpanel" aria-labelledby="tab--2">
+                             <div class="tab-pane fade" id="tab2" role="tabpanel" aria-labelledby="tab--2">
                                 <div class="credit-tab-content">
-                                    <!-- Tab Text -->
+                                  <!--   Tab Text -->
                                     <div class="credit-tab-text">
                                         <p>Nam tristique ex vel magna tincidunt, ut porta nisl finibus. Vivamus eu dolor eu quam varius rutrum. Fusce nec justo id sem aliquam fringilla nec non lacus. Suspendisse eget lobortis nisi, ac cursus odio. Vivamus nibh velit, rutrum at ipsum ac, dignissim iaculis ante.</p>
                                     </div>
@@ -182,10 +202,10 @@ foreach ($serv_data as $item );
                             </div>
                             <div class="tab-pane fade show active" id="tab3" role="tabpanel" aria-labelledby="tab--3">
                                 <div class="credit-tab-content">
-                                    <!-- Tab Text -->
+                                   <!--  Tab Text -->
                                     <div class="credit-tab-text">
                                         <p>Nam tristique ex vel magna tincidunt, ut porta nisl finibus. Vivamus eu dolor eu quam varius rutrum. Fusce nec justo id sem aliquam fringilla nec non lacus. Suspendisse eget lobortis nisi, ac cursus odio. Vivamus nibh velit, rutrum at ipsum ac, dignissim iaculis ante.</p>
-                                    </div>
+                                    </div> 
                                 </div>
                             </div>
                         </div>
