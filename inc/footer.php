@@ -31,11 +31,11 @@
                         <!-- Nav -->
                         <nav>
                             <ul>
-                                <li><a href="index.php">Homepage</a></li>
-                                <li><a href="#">About Us</a></li>
-                                <li><a href="services.php">Services &amp; Offers</a></li>
-                                <li><a href="#">Portfolio Presentation</a></li>
-                                <li><a href="#">The News</a></li>
+                                <li><a href="./about.php">About Us</a></li>
+                                <li><a href="./contact.php">Contact Us</a></li>
+                              <!--   <li><a href="services.php">Services &amp; Offers</a></li> -->
+                                <!-- <li><a href="#">Portfolio Presentation</a></li> -->
+                                <li><a href="./services.php">Products & Services</a></li>
                             </ul>
                         </nav>
                     </div>
@@ -48,10 +48,10 @@
                         <!-- Nav -->
                         <nav>
                             <ul>
-                                <li><a href="#">Our Loans</a></li>
+                                <li><a href="./serv_details.php?cat=loan">Our Loans</a></li>
                                 <li><a href="#">Trading &amp; Commerce</a></li>
-                                <li><a href="#">Banking &amp; Private Equity</a></li>
-                                <li><a href="#">Industrial &amp; Factory</a></li>
+                          <!--       <li><a href="#">Banking &amp; Private Equity</a></li> -->
+                              <!--   <li><a href="#">Industrial &amp; Factory</a></li> -->
                                 <li><a href="#">Financial Solutions</a></li>
                             </ul>
                         </nav>
@@ -67,8 +67,8 @@
                             <ul>
                                 <li><a href="#">Our Loans</a></li>
                                 <li><a href="#">Trading &amp; Commerce</a></li>
-                                <li><a href="#">Banking &amp; Private Equity</a></li>
-                                <li><a href="#">Industrial &amp; Factory</a></li>
+                   <!--              <li><a href="#">Banking &amp; Private Equity</a></li> -->
+                          <!--       <li><a href="#">Industrial &amp; Factory</a></li> -->
                                 <li><a href="#">Financial Solutions</a></li>
                             </ul>
                         </nav>
@@ -107,7 +107,7 @@
                                 </div>
                             </div>
                         </div>
-
+<!-- 
                          Single News Area 
                         <div class="single-latest-news-area d-flex align-items-center">
                             <div class="news-thumbnail">
@@ -121,7 +121,7 @@
                                 </div>
                             </div>
                         </div>
-
+ -->
                     </div>
                 </div>
             </div>

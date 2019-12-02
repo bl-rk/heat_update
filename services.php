@@ -78,54 +78,6 @@
                     </div>
                 </div>
 
-                <!-- Single Service Area -->
-                <div class="col-12 col-md-6 col-lg-4">
-                    <div class="single-service-area d-flex mb-100 wow fadeInUp" data-wow-delay="400ms">
-                        <a href="serv_details.php?cat=realtor">
-                        <div class="icon">
-                          <i class="icon-coin" ></i>
-                        </div>
-                        </a>
-                        <div class="text">
-                            <a href="serv_details.php?cat=realtor"><h5>Heat Realtors</h5>
-                            <p>With just little documentation you can get loan at a snap !!.</p>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Single Service Area -->
-                <div class="col-12 col-md-6 col-lg-4">
-                    <div class="single-service-area d-flex mb-100 wow fadeInUp" data-wow-delay="500ms">
-
-                        <a href="serv_details.php?cat=investment">
-                        <div class="icon">
-                            <i class="icon-smartphone-1"></i>
-                        </div>
-                    </a>
-                        <div class="text">
-                            <a href="serv_details.php?cat=investment"><h5>Heat Investment </h5>
-                            <p>Offering the best financial experience , with very swift customer response and services .</p>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Single Service Area -->
-                <div class="col-12 col-md-6 col-lg-4">
-                    <div class="single-service-area d-flex mb-100 wow fadeInUp" data-wow-delay="600ms">
-                        <a href="serv_details.php?cat=#">
-                        <div class="icon">
-                            <i class="icon-diamond"></i>
-                        </div>
-                    </a>
-                        <div class="text">
-                            <a href="serv_details.php?cat=investment"><h5>Heat Insurance</h5>
-                            <p>Lets invest , Put a call through to us to get our service pack on investments plans</p>
-                            </a>
-                        </div>
-                    </div>
-                </div>
 
                 <!-- Single Service Area -->
                 <div class="col-12 col-md-6 col-lg-4">

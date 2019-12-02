@@ -12,7 +12,6 @@ $pageTitle="Apply For Loan";
 
 
             <fieldset >
-			
 
                     <div class="row">
                         <div class="col-12 col-lg-8">
@@ -25,8 +24,7 @@ $pageTitle="Apply For Loan";
                                 <form action="#" method="post">
                                     <div class="row">
 
-                                        
-
+                                      
                                         <div class="col-lg-6">
                                          <div class="form-group">
                                                 <input class="form-control" id="name" placeholder="Full Name" type="text">
@@ -79,7 +77,6 @@ $pageTitle="Apply For Loan";
                                             <button class="btn credit-btn mt-30" type="submit">Submit</button>
                                         </div>
 
-                                    
                                  
                                     </div>
                                 </form>

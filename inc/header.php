@@ -86,14 +86,13 @@ $pageTitle= $pageTitle;
                                     
                                     <li><a href="./services.php">Products & Services</a>
                                         <ul class="dropdown">
-                                            <li><a href="./index.php">Heat Money</a></li>
-                                            <li><a href="./services.php">Heat Finance</a></li>
-                                            <li><a href="./about.php">Heat Realtors</a></li>
-                                            <li><a href="./contact.php">Heat Consult</a></li>
+                                            <li><a href="./serv_details.php?cat=loan">Heat Money</a></li>
+                                            <li><a href="./serv_details.php?cat=consultancy">Heat Consult</a></li>
+                                            <li><a href="./serv_details.php?cat=realtor">Heat Realtors</a></li>
                                         </ul>
                                     </li>
 
-                                        <li><a href="" title="Corporate Social Investments">CSR</a></li>
+                                        <li><a href="#" title="Corporate Social Investments">CSR</a></li>
 
                                     <li><a href="./contact.php" title="Contact">Contact</a></li>
 

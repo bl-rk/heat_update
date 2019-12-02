@@ -3,38 +3,15 @@
     $pageTitle="";
      $section=null;
 
+
 include("inc/service_data.php");
-
-// function for header title geting the section and category tag
-if(isset($_GET["cat"])){
-
-    if ($_GET["cat"] == "loan")
-            {$pageTitle ="Heat Money";
-             $section="loan";}
-
-    else if($_GET["cat"] == "consultancy")
-            {$pageTitle="Heat Consultancy";
-            $section="consultancy";}
-
-    else if($_GET["cat"] == "investment")
-            {$pageTitle="Heat Realtors";
-            $section="investment";}
-
-    else if($_GET["cat"] == "realtor")
-            {$pageTitle="Heat Realtors";
-            $section="realtor";}
-}
-
-    
-
-foreach ($serv_data as $item );
-
-    
-    
+include("functions.php");
 
 
-// $pageTitle = $item["title"];
+
  include("inc/header.php"); 
+
+
 
 ?>
 
@@ -61,6 +38,19 @@ foreach ($serv_data as $item );
         </div>
     </section>
     <!-- ##### Breadcrumb Area End ##### -->
+
+ <!-- 
+  <?php 
+
+    // print_r($_GET); 
+        
+         // print_r($money);
+        
+        // print_r($data);
+
+          
+    ?> -->
+
     <!-- Major heading for site service data start -->
 </br>
 
@@ -69,7 +59,7 @@ foreach ($serv_data as $item );
      <div class="section-heading text-center mb-100 wow fadeInUp" data-wow-delay="100ms">
                         <div class="line"></div>
                         <p>Complete Exclusive Package on...</p>
-                        <h2><?php echo "$pageTitle"; ?></h2>
+                        <h2><?php echo $data["title"]; ?></h2>
                     </div>
                
 
@@ -83,12 +73,12 @@ foreach ($serv_data as $item );
                         <div class="section-heading">
                         <div class="line"></div>
                             <p>Take look at our</p>
-                            <h2> <?php echo "$pageTitle"; ?></h2>
+                            <h2> <?php echo $data["title"]; ?></h2>
                         </div>
 
-                        <h6 class="mb-4"><?php echo $item["sub_content"]; ?> </h6>
+                        <h6 class="mb-4"><?php echo $data["sub_content"]; ?> </h6>
 
-                        <p class="mb-0"><?php echo $item["content"]; ?></p>
+                        <p class="mb-0"><?php echo $data["content"]; ?></p>
 
                         <a href="inc/apply.php" class="btn credit-btn mt-50">Apply Now</a>
                     </div>
@@ -111,7 +101,7 @@ foreach ($serv_data as $item );
                 <div class="col-12">
                     <div class="elements-title mb-30">
                         <div class="line"></div>
-                        <h2>Heat Money <small> (loan packs) </small> </h2>
+                        <h2><?php echo $data["title"]; ?><small> ( packs) </small> </h2>
                     </div>
                 </div>
 
@@ -120,51 +110,78 @@ foreach ($serv_data as $item );
                     <div class="accordions mb-100" id="accordion" role="tablist" aria-multiselectable="true">
                         <!-- single accordian area -->
                         <div class="panel single-accordion">
-                            <h6><a role="button" class="collapsed" aria-expanded="true" aria-controls="collapseOne" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">HEAT Salary Advance (HSA) 
+                            <h6><a role="button" class="collapsed" aria-expanded="true" aria-controls="collapseOne" data-toggle="collapse" data-parent="#accordion" href="#collapseOne"> <?php echo $data["seg_a_title"]; ?>
                                     <span class="accor-open"><i class="fa fa-plus" aria-hidden="true"></i></span>
                                     <span class="accor-close"><i class="fa fa-minus" aria-hidden="true"></i></span>
                                     </a></h6>
                             <div id="collapseOne" class="accordion-content collapse show">
-                                <p>Provides salary advance or Cash Loans to salary and other income earners, you can get upto 300% of net monthly salary/income as loan, repayment is based on monthly income or salary deducted at source or via direct debit order or post-dated cheques. No collateral is required. Repayment durationupto 6 months.</p>
+                                <p><?php echo $data["seg_a_content"]; ?></p>
                             </div>
                         </div>
 
 
                         <div class="panel single-accordion">
                             <h6>
-                                <a role="button" class="collapsed" aria-expanded="true" aria-controls="collapseTwo" data-parent="#accordion" data-toggle="collapse" href="#collapseTwo">HEAT Loan-2-Staff (HLS)
+                                <a role="button" class="collapsed" aria-expanded="true" aria-controls="collapseTwo" data-parent="#accordion" data-toggle="collapse" href="#collapseTwo"><?php echo $data["seg_b_title"]; ?>
                                         <span class="accor-open"><i class="fa fa-plus" aria-hidden="true"></i></span>
                                         <span class="accor-close"><i class="fa fa-minus" aria-hidden="true"></i></span>
                                         </a>
                             </h6>
-                            <div id="collapseTwo" class="accordion-content collapse">
-                                <p>This product is designed for organisations with minimum staff strength of 20 employees, it provides the staff of partner organisations with concessionary loans at reduced interest rate. The partner organization must be a CAC registered company, with characteristics of a going concern..</p>
+                            <div id="collapseTwo" class="accordion-content collapse ">
+                                <p> <?php echo $data["seg_b_content"]; ?> </p>
                             </div>
                         </div>
-                      <!--   <!- single accordian area ->
-                        <div class="panel single-accordion">
+
+                       
+                       <div class="panel single-accordion">
                             <h6>
-                                <a role="button" class="collapsed" aria-expanded="true" aria-controls="collapseTwo" data-parent="#accordion" data-toggle="collapse" href="#collapseTwo">Pellentesque sit amet velit a libero viverra
+                                <a role="button" class="collapsed" aria-expanded="true" aria-controls="collapseThree" data-parent="#accordion" data-toggle="collapse" href="#collapseThree"><?php echo $data["seg_c_title"]; ?>
                                         <span class="accor-open"><i class="fa fa-plus" aria-hidden="true"></i></span>
                                         <span class="accor-close"><i class="fa fa-minus" aria-hidden="true"></i></span>
                                         </a>
-                            </h6>
-                            <div id="collapseTwo" class="accordion-content collapse">
-                                <p>Nam tristique ex vel magna tincidunt, ut porta nisl finibus. Vivamus eu dolor eu quam varius rutrum. Fusce nec justo id sem aliquam fringilla nec non lacus. Suspendisse eget lobortis nisi, ac cursus odio. Vivamus nibh velit, rutrum at ipsum ac, dignissim iaculis ante.</p>
-                            </div>
-                        </div>
-                        <!- single accordian area ->
-                        <div class="panel single-accordion">
-                            <h6>
-                                <a role="button" aria-expanded="true" aria-controls="collapseThree" class="collapsed" data-parent="#accordion" data-toggle="collapse" href="#collapseThree">Quisque fringilla orci lacus, ut vestibulum
-                                        <span class="accor-open"><i class="fa fa-plus" aria-hidden="true"></i></span>
-                                        <span class="accor-close"><i class="fa fa-minus" aria-hidden="true"></i></span>
-                                    </a>
                             </h6>
                             <div id="collapseThree" class="accordion-content collapse">
-                                <p>Nam tristique ex vel magna tincidunt, ut porta nisl finibus. Vivamus eu dolor eu quam varius rutrum. Fusce nec justo id sem aliquam fringilla nec non lacus. Suspendisse eget lobortis nisi, ac cursus odio. Vivamus nibh velit, rutrum at ipsum ac, dignissim iaculis ante.</p>
+                                <p> <?php echo $data["seg_c_content"]; ?> </p>
                             </div>
-                        </div> -->
+                        </div>
+                        
+
+                        <div class="panel single-accordion">
+                            <h6>
+                                <a role="button" class="collapsed" aria-expanded="true" aria-controls="collapseFour" data-parent="#accordion" data-toggle="collapse" href="#collapseFour"><?php echo $data["seg_d_title"]; ?>
+                                        <span class="accor-open"><i class="fa fa-plus" aria-hidden="true"></i></span>
+                                        <span class="accor-close"><i class="fa fa-minus" aria-hidden="true"></i></span>
+                                        </a>
+                            </h6>
+                            <div id="collapseFour" class="accordion-content collapse">
+                                <p><?php echo $data["seg_d_content"]; ?></p>
+                            </div>
+                        </div>
+                        
+                        <div class="panel single-accordion">
+                            <h6>
+                                <a role="button" class="collapsed" aria-expanded="true" aria-controls="collapseFive" data-parent="#accordion" data-toggle="collapse" href="#collapseFive"><?php echo $data["seg_e_title"]; ?>
+                                        <span class="accor-open"><i class="fa fa-plus" aria-hidden="true"></i></span>
+                                        <span class="accor-close"><i class="fa fa-minus" aria-hidden="true"></i></span>
+                                        </a>
+                            </h6>
+                            <div id="collapseFive" class="accordion-content collapse">
+                                <p><?php echo $data["seg_e_content"]; ?></p>
+                            </div>
+                        </div>
+                        
+                        <div class="panel single-accordion">
+                            <h6>
+                                <a role="button" class="collapsed" aria-expanded="true" aria-controls="collapseSix" data-parent="#accordion" data-toggle="collapse" href="#collapseSix"> <?php echo $data["seg_f_title"]; ?>
+                                        <span class="accor-open"><i class="fa fa-plus" aria-hidden="true"></i></span>
+                                        <span class="accor-close"><i class="fa fa-minus" aria-hidden="true"></i></span>
+                                        </a>
+                            </h6>
+                            <div id="collapseSix" class="accordion-content collapse">
+                                <p><?php echo $data["seg_f_content"]; ?></p>
+                            </div>
+                        </div>
+                         
                     </div>
                 </div>
 
@@ -185,18 +202,28 @@ foreach ($serv_data as $item );
 
                         <div class="tab-content mb-100" id="myTabContent">
                             <div class="tab-pane fade" id="tab1" role="tabpanel" aria-labelledby="tab--1">
-                                <div class="credit-tab-content">
+                               <!--  <div class="credit-tab-content"> -->
                                     <!-- Tab Text -->
-                                    <div class="credit-tab-text">
-                                        <p>Nam tristique ex vel magna tincidunt, ut porta nisl finibus. Vivamus eu dolor eu quam varius rutrum. Fusce nec justo id sem aliquam fringilla nec non lacus. Suspendisse eget lobortis nisi, ac cursus odio. Vivamus nibh velit, rutrum at ipsum ac, dignissim iaculis ante.</p>
+                                    <div class="">
+                                        <li class="list-grioup">
+                                            <ol class="">Must be minimum of 22 years at time of applying .</ol>
+
+                                            <ol>Must be in full-employment as a confirmed staff .</ol>
+                                            
+                                            <ol>  Must have a steady source of verifiable income .</ol>
+                                            
+                                            <ol>Must have a functional Bank Account .</ol>
+                                            
+                                            <ol>Must have a valid means of identification, driver&prime;s license, international passport, or national ID card</ol>
+                                        </li>
                                     </div>
                                 </div>
-                            </div>
+                           <!--  </div> -->
                              <div class="tab-pane fade" id="tab2" role="tabpanel" aria-labelledby="tab--2">
                                 <div class="credit-tab-content">
                                   <!--   Tab Text -->
                                     <div class="credit-tab-text">
-                                        <p>Nam tristique ex vel magna tincidunt, ut porta nisl finibus. Vivamus eu dolor eu quam varius rutrum. Fusce nec justo id sem aliquam fringilla nec non lacus. Suspendisse eget lobortis nisi, ac cursus odio. Vivamus nibh velit, rutrum at ipsum ac, dignissim iaculis ante.</p>
+                                        <p>Process and resuls pathways</p>
                                     </div>
                                 </div>
                             </div>
@@ -204,7 +231,7 @@ foreach ($serv_data as $item );
                                 <div class="credit-tab-content">
                                    <!--  Tab Text -->
                                     <div class="credit-tab-text">
-                                        <p>Nam tristique ex vel magna tincidunt, ut porta nisl finibus. Vivamus eu dolor eu quam varius rutrum. Fusce nec justo id sem aliquam fringilla nec non lacus. Suspendisse eget lobortis nisi, ac cursus odio. Vivamus nibh velit, rutrum at ipsum ac, dignissim iaculis ante.</p>
+                                        <p>Time Taken</p>
                                     </div> 
                                 </div>
                             </div>
@@ -215,6 +242,8 @@ foreach ($serv_data as $item );
             </div>
                 </div>
 </section>
+
+
   
     <?php
  include("inc/footer.php"); 

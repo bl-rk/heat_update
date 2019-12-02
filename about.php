@@ -10,8 +10,8 @@ include("inc/header.php"); ?>
                     <div class="breadcrumb-content">
                         <h2>About us</h2>
                         <nav aria-label="breadcrumb">
-                            <ol class="breadcrumb">
-                                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                            <ol class="breadcrumb">s
+                                <li class="breadcrumb-item"><a href="index.php">Home</a></li>
                                 <li class="breadcrumb-item active" aria-current="page">About Us</li>
                             </ol>
                         </nav>
@@ -34,10 +34,10 @@ include("inc/header.php"); ?>
                             <p>Take look at our</p>
                             <h2>About our company</h2>
                         </div>
-                        <h6 class="mb-4">We want to be your one-stop-shop when you need urgent cash, extra income or any other financial services. </h6>
+                        <h6 class="mb-4">Enhancing the financial wellness of Nigerians through quick affordable and financial solutions. </h6>
 
-                        <p class="mb-0">At Heat Finiancials and Investment, we strongly believe in integrity, empathy, respect, innovation and creating value in everything we do. We have a team of like-minded, creative and friendly people who are experts in their fields working together productively to create value to all our stakeholders with the single goal of being exceptional by all standards. </p>
-                        <a href="#" class="btn credit-btn mt-50">Discover</a>
+                        <p class="mb-0">HEAT Money is a trade mark of HEAT Finance and Investments Limited, a multifaceted finance and investment company, focused in the provision of credits, realtor,investment, Insurance,and Consultancy Services. HEAT Money provides arrays of affordable and tailored made financial solutions to;individuals, micro, small, and medium enterprises (MSME), at the speed of light!</p>
+                        <a href="services.php" class="btn credit-btn mt-50">Discover</a>
                     </div>
                 </div>
                 <div class="col-12 col-md-6">
@@ -61,14 +61,14 @@ include("inc/header.php"); ?>
                 <h2>What <span>Drives</span> Us</h2>
             </div>
     
-    <h2>Vision</h2> </br>
+    <h2 style = "color: white";>Vision</h2> </br>
 
-<p>To remain the leading technologically innovative retail financial institution in Africa.</p>
+<p style = "color: white";>Our vision is to be the preferred financial services provider; to individuals, micro, small, and medium enterprises (MSME) in Africa.</p>
 </br>
 
-<h2>Mission</h2> </br>
+<h2 style = "color: white";>Mission</h2> </br>
 
-<p>To create a work place that provides equal opportunities for employees, convenient environment for clients, rewarding investments to our shareholders and value to our community.</p>
+<p style = "color: white";>Our mission is to enhance the financial wellness of our customers by providingtimely, affordable, and tailored made financial solutions, while consistently meetingthe expectations of ourstakeholders, and impacting our community positively.</p>
 
 
             <div class="d-flex flex-wrap align-items-center justify-content-between">
@@ -118,7 +118,7 @@ include("inc/header.php"); ?>
                     <!-- Cta Content -->
                     <div class="cta-content d-flex flex-wrap align-items-center justify-content-between">
                         <div class="cta-text">
-                            <h4>Are you in need for a load? Get in touch with us.</h4>
+                            <h4>Are you in need for a loan ? Get in touch with us.</h4>
                           <!--   <p>Morbi ut dapibus dui. Sed ut iaculis elit, quis varius mauris. Integer ut ultricies orci, lobortis egestas sem.</p> -->
                         </div>
                         <div class="cta-btn">
