@@ -1,9 +1,14 @@
 <?php
 
 $pageTitle="Contact";
- include("inc/header.php"); 
+
+include("inc/header.php"); 
 
 ?>
+
+
+
+
   <!-- ##### Breadcrumb Area Start ##### -->
     <section class="breadcrumb-area bg-img bg-overlay jarallax" style="background-image: url(img/bg-img/13.jpg);">
         <div class="container h-100">
@@ -32,7 +37,7 @@ $pageTitle="Contact";
                 <div class="col-12 col-lg-4">
                     <div class="single-contact-area mb-100">
                         <!-- Logo -->
-                        <a href="#" class="d-block mb-50"><img src="img/core-img/logo.png" alt=""></a>
+                        <a href="loan_apply.php" class="d-block mb-50"><img src="img/core-img/cell.png" alt="Finance,Contact,Loan,Realtor "></a>
                         <p>Be sure to contact us VIA any of our social media handles, Email addresses &amp; Holines. Our services operates 24/7 .</p>
                     </div>
                 </div>
@@ -125,21 +130,21 @@ $pageTitle="Contact";
                             <div class="contact-form-area contact-page">
                                 <h4 class="mb-50">Send a message</h4>
 
-                                <form action="#" method="post">
+                                <form action="mail_process.php" method="post">
                                     <div class="row">
                                         <div class="col-lg-6">
                                             <div class="form-group">
-                                                <input type="text" class="form-control" id="name" placeholder="Your Name">
+                                                <input type="text" class="form-control" id="name" name="name" placeholder="Your Name">
                                             </div>
                                         </div>
                                         <div class="col-lg-6">
                                             <div class="form-group">
-                                                <input type="email" class="form-control" id="email" placeholder="Your E-mail">
+                                                <input type="email" class="form-control" id="email" name="email" placeholder="Your E-mail">
                                             </div>
                                         </div>
                                         <div class="col-12">
                                             <div class="form-group">
-                                                <input type="text" class="form-control" id="subject" placeholder="Your Subject">
+                                                <input type="text" class="form-control" id="subject" name="subject" placeholder="Your Subject">
                                             </div>
                                         </div>
                                         <div class="col-12">
@@ -148,7 +153,7 @@ $pageTitle="Contact";
                                             </div>
                                         </div>
                                         <div class="col-12">
-                                            <button class="btn credit-btn mt-30" type="submit">Send</button>
+                                            <button class="btn credit-btn mt-30" name="submit" type="submit">Send</button>
                                         </div>
                                     </div>
                                 </form>
@@ -159,11 +164,6 @@ $pageTitle="Contact";
             </div>
         </div>
     </section>
-    <!-- ##### Contact Area End ##### -->
-
-
-
-
 <?php
  include("inc/footer.php"); 
 

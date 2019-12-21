@@ -6,6 +6,7 @@ if ($_GET["cat"] == "loan")
  foreach($money as $id => $data)
            {
             $pageTitle = $data["title"];
+            
 
         }
 }
@@ -25,7 +26,7 @@ elseif ($_GET["cat"] == "realtor")
 
         }
 }
-elseif ($_GET["cat"] == "consultancy")
+elseif ($_GET["cat"] == "consults")
 {
  foreach($consults as $id => $data)
            {

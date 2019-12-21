@@ -80,12 +80,12 @@ include("functions.php");
 
                         <p class="mb-0"><?php echo $data["content"]; ?></p>
 
-                        <a href="inc/apply.php" class="btn credit-btn mt-50">Apply Now</a>
+                        <a href="<?php echo $data['apply_link'] ?>" class="btn credit-btn mt-50">Apply Now</a>
                     </div>
                 </div>
                 <div class="col-12 col-md-6">
                     <div class="about-thumbnail mb-100">
-                        <img src="img/bg-img/14.jpg" alt="">
+                        <img src="<?php echo $data['img'] ?>" alt="Loan Apply">
                     </div>
                 </div>
             </div>

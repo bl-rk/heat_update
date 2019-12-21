@@ -43,13 +43,33 @@ $pageTitle= $pageTitle;
 
                                      
 
-            <div class="container h-100">
+            <div class="container-fluid h-100">
                 <div class="row h-100 align-items-center">
                     <div class="col-12 d-flex justify-content-around">
+
+             
                         <!-- Logo Area -->
                         <div class="logo ">
-                            <a href="./index.php"><img src="./img/core-img/logo1.png" alt="Heat Finance & Investments"></a>
+                            <!-- alt="Heat Finance & Investments" -->
+                            <a href="./index.php"><img src="./img/core-img/log.png" ></a>
                         </div>
+
+                        <!-- Social media Nav links -->           
+                    <ul class="nav justify-content-end">
+                      <li class="nav-item">
+                        <a class="nav-link active" href="#"><img src="./img/core-img/icon-2.png" alt="Loans"></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#"><img src="./img/core-img/icon-4.png" alt="Twitter"></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#"><img src="./img/core-img/icon-3.png" alt="Linkedin"></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link " href="#" ><img src="./img/core-img/icon-1.png" alt="Loans"></a>
+                      </li>
+                    </ul>
+
 
                    
                        
@@ -82,21 +102,22 @@ $pageTitle= $pageTitle;
                             <!-- Nav Start -->
                             <div class="classynav">
                                 <ul>
-                                    <li><a href="./index.php">Home</a></li>
+                                    <li><a href="./index.php" title="Home" alt="loans ,money ,housing, quick finance" >Home</a></li>
                                     
-                                    <li><a href="./services.php">Products & Services</a>
+                                    <li><a href="./services.php" title="Products & Services">Products & Services</a>
                                         <ul class="dropdown">
                                             <li><a href="./serv_details.php?cat=loan">Heat Money</a></li>
-                                            <li><a href="./serv_details.php?cat=consultancy">Heat Consult</a></li>
+                                            <li><a href="./serv_details.php?cat=consults">Heat Consult</a></li>
                                             <li><a href="./serv_details.php?cat=realtor">Heat Realtors</a></li>
                                         </ul>
                                     </li>
 
-                                        <li><a href="#" title="Corporate Social Investments">CSR</a></li>
+                                        <li><a href="crs.php" title="Corporate Social Investments">CRS</a></li>
 
                                     <li><a href="./contact.php" title="Contact">Contact</a></li>
 
                                      <li><a href="./about.php" title="About Us">About Us</a></li>
+                                     <li><a href="./faq.php" title="Frequently Asked Question">FAQ</a></li>
 
                                     
                                     <!-- <li><a href="#">Pages</a>

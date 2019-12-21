@@ -35,28 +35,13 @@
                                 <li><a href="./contact.php">Contact Us</a></li>
                               <!--   <li><a href="services.php">Services &amp; Offers</a></li> -->
                                 <!-- <li><a href="#">Portfolio Presentation</a></li> -->
-                                <li><a href="./services.php">Products & Services</a></li>
+                                <li><a href="./services.php">Vission &amp; Mission </a></li>
                             </ul>
                         </nav>
                     </div>
                 </div>
 
-                <!-- Single Footer Widget -->
-                <div class="col-12 col-sm-6 col-lg-3">
-                    <div class="single-footer-widget mb-100">
-                        <h5 class="widget-title">Solutions</h5>
-                        <!-- Nav -->
-                        <nav>
-                            <ul>
-                                <li><a href="./serv_details.php?cat=loan">Our Loans</a></li>
-                                <li><a href="#">Trading &amp; Commerce</a></li>
-                          <!--       <li><a href="#">Banking &amp; Private Equity</a></li> -->
-                              <!--   <li><a href="#">Industrial &amp; Factory</a></li> -->
-                                <li><a href="#">Financial Solutions</a></li>
-                            </ul>
-                        </nav>
-                    </div>
-                </div>
+             
 
                 <!-- Single Footer Widget -->
                 <div class="col-12 col-sm-6 col-lg-3">

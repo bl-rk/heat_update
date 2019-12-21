@@ -21,7 +21,7 @@ $pageTitle="Heat Finance &amp; Investments";
                              <!--    <h6 data-animation="fadeInDown" data-delay="100ms">Heat Finance &amp; Investments </h6> -->
                                 <h3 data-animation="fadeInDown" data-delay="300ms"> Heat <span> Finance &amp; </span>Investments </h3>
 
-                                <p data-animation="fadeInDown" data-delay="500ms">Credit,<span> Realtor </span>, Consulting</p>
+                                <p data-animation="fadeInDown" data-delay="500ms">CREDIT,<span> REALTOR</span>, INVESTMENT, CONSULTING</p>
                          <!--         <p> Enhancing the Financial Wellbeing of Nigerians through quick and affordable Loans </p> -->
                                
                                 <a href="contact.php" class="btn credit-btn mt-50" data-animation="fadeInDown" data-delay="700ms">Make Your Move Now </a>
@@ -71,7 +71,7 @@ $pageTitle="Heat Finance &amp; Investments";
                             <div class="welcome-text text-center">
                                 <h6 data-animation="fadeInDown" data-delay="100ms"></h6>
                                 <h2 data-animation="fadeInDown" data-delay="300ms"><span> Heat</span> Realtors</h2>
-                                <p data-animation="fadeInDown" data-delay="500ms">We buy, sell, Rent, Lease, Develop, Manage Real Estates</p>
+                                <p data-animation="fadeInDown" data-delay="500ms">WE BUY, SELL, LET, LEASE, DEVELOP, MANAGE.</p>
                                 <a href="services.php" class="btn credit-btn mt-50" data-animation="fadeInDown" data-delay="700ms">Contact us today</a>
                             </div>
                         </div>
@@ -93,7 +93,7 @@ $pageTitle="Heat Finance &amp; Investments";
                             <div class="welcome-text text-center">
                                 <!-- <h6 data-animation="fadeInUp" data-delay="100ms">Heat </h6> -->
                                 <h2 data-animation="fadeInUp" data-delay="300ms">HEAT <span>CONSULTS </span> </h2>
-                                <p data-animation="fadeInUp" data-delay="500ms">Providing Cutting Edge Advisory and Consultancy Services !!.</p>
+                                <p data-animation="fadeInUp" data-delay="500ms">PROVIDING CUTTING EDGE ADVISORY AND CONSULANCY ADVISORY SERVEICES.</p>
                                 <a href="contact.php" class="btn credit-btn mt-50" data-animation="fadeInUp" data-delay="700ms">Contact us today</a>
                             </div>
                         </div>
@@ -160,37 +160,38 @@ $pageTitle="Heat Finance &amp; Investments";
                 <h2>Helping small businesses like yours</h2>
             </div>
             <h6> Startup loans offer newer businesses capital to grow. Giving your ideas a reality .</h6>
+
             <div class="d-flex flex-wrap mt-50">
                 <!-- Single Skills Area -->
-                <div class="single-skils-area mb-70 mr-5">
+  <!--               <div class="single-skils-area mb-70 mr-5">
                     <div id="circle" class="circle" data-value="0.90">
                         <div class="skills-text">
                             <span>90%</span>
                         </div>
                     </div>
                     <p>Energy</p>
-                </div>
+                </div> -->
 
                 <!-- Single Skills Area -->
-                <div class="single-skils-area mb-70 mr-5">
+            <!--     <div class="single-skils-area mb-70 mr-5">
                     <div id="circle2" class="circle" data-value="0.75">
                         <div class="skills-text">
                             <span>75%</span>
                         </div>
                     </div>
                     <p>power</p>
-                </div>
+                </div> -->
 <!-- color code #c2b7f7 -->
 
                 <!-- Single Skills Area -->
-                <div class="single-skils-area mb-70">
+              <!--   <div class="single-skils-area mb-70">
                     <div id="circle3" class="circle" data-value="0.97">
                         <div class="skills-text">
                             <span>99%</span>
                         </div>
                     </div>
                     <p>resource</p>
-                </div>
+                </div> -->
             </div>
             <a href="#" class="btn credit-btn box-shadow btn-2">Read More</a>
         </div>
@@ -276,7 +277,7 @@ $pageTitle="Heat Finance &amp; Investments";
                         </div>
                         </a>
                         <div class="text">
-                            <a href="serv_details.php?cat=realtor"><h5>HEAT CONSULTS</h5>
+                            <a href="serv_details.php?cat=consults"><h5>HEAT CONSULTS</h5>
                             <p>we provide bespoke and tailored end-to-end financial advisory and consultancy services to our customers.</p>
                             </a>
                         </div>

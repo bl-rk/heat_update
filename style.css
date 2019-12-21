@@ -1041,7 +1041,7 @@ img {
         color: #ffffff;
         text-align: center;
         margin-right: 15px;
-        background-color: #ff4438; }
+        background-color: #ee7759; }
       .contact--area .contact-content .single-contact-content .text p {
         font-weight: 600;
         color: #212121;
@@ -1587,7 +1587,7 @@ img {
 .contact-advisor {
   position: relative;
   z-index: 1;
-  background-color: #ff4438;
+  background-color: #ee7759;
   padding: 35px; }
   .contact-advisor h5 {
     font-size: 18px;
