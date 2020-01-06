@@ -62,6 +62,23 @@
                     </div>
                 </div>
 
+
+                   <!-- Single Service Area -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="single-service-area d-flex mb-100 wow fadeInUp" data-wow-delay="700ms">
+                        <a href="serv_details.php?cat=realtor">
+                        <div class="icon">
+                            <i class="icon-piggy-bank"></i>
+                        </div>
+                    </a>
+                        <div class="text">
+                            <a href="serv_details.php?cat=realtor"><h5>Heat Realtors</h5>
+                            <p>Facilitating Housing Services: We buy, sell, develop and Manage real estate, You can also get a space in our estate.</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
                 <!-- Single Service Area -->
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="single-service-area d-flex mb-100 wow fadeInUp" data-wow-delay="300ms">
@@ -72,28 +89,14 @@
                     </a>
                         <div class="text">
                             <a href="serv_details.php?cat=consultancy"><h5>Heat Consults</h5>
-                            <p>We attend to our customers request as fast as possible through any of our mediums and easily accessible by our customers</p>
+                            <p>we provide bespoke and tailored end-to-end financial advisory and consultancy services to our customers.</p>
                             </a>
                         </div>
                     </div>
                 </div>
 
 
-                <!-- Single Service Area -->
-                <div class="col-12 col-md-6 col-lg-4">
-                    <div class="single-service-area d-flex mb-100 wow fadeInUp" data-wow-delay="700ms">
-                        <a href="serv_details.php?cat=realtor">
-                        <div class="icon">
-                            <i class="icon-piggy-bank"></i>
-                        </div>
-                    </a>
-                        <div class="text">
-                            <a href="serv_details.php?cat=realtor"><h5>Heat Realtors</h5>
-                            <p>We buy, sell and Manage estate, You can also get a space in our estate</p>
-                            </a>
-                        </div>
-                    </div>
-                </div>
+             
             </div>
         </div>
     </section>

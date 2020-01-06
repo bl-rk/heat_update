@@ -68,7 +68,7 @@ include("inc/header.php"); ?>
 
 <h2 style = "color: white";>Mission</h2> </br>
 
-<p style = "color: white";>Our mission is to enhance the financial wellness of our customers by providingtimely, affordable, and tailored made financial solutions, while consistently meetingthe expectations of ourstakeholders, and impacting our community positively.</p>
+<p style = "color: white";>Our mission is to enhance the financial wellness of our customers by providing timely, affordable, and tailored made financial solutions, while consistently meeting the expectations of ourstakeholders, and impacting our community positively.</p>
 
 <h2 style = "color: white";>Core Values</h2> </br>
 
@@ -82,10 +82,10 @@ include("inc/header.php"); ?>
         <div class="about-area flex-wrap section-padding-50-50">
             <ol class="list-group-item disabled" aria-disabled="true" >
 
-    <ul class=""> <h6>H Humility;</h6> we are humble, we treat all people with respect, we serve our customers, and we maintain high ethical standards. </ul>
-    <ul class=""><h6>E Empathy;</h6> we are empathetic, we understand the feelings and experiences of others, our company&#39;s policies are geared towards fair business practices.</ul>
-    <ul class=""><h6>A Accountability;</h6> we are accountable, we take ownership and responsibility for all our actions and outcomes, we honour our obligations to our stakeholders.</ul>
-     <ul class=""><h6> T Trust; </h6> we are trustworthy, we uphold integrity in: keeping to our words, being honest and being transparent.</ul>
+    <ul class=""> <h6>H-Humility</h6> we are humble, we treat all people with respect, we serve our customers, and we maintain high ethical standards. </ul>
+    <ul class=""><h6>E-Empathy</h6> we are empathetic, we understand the feelings and experiences of others, our company&#39;s policies are geared towards fair business practices.</ul>
+    <ul class=""><h6>A-Accountability</h6> we are accountable, we take ownership and responsibility for all our actions and outcomes, we honour our obligations to our stakeholders.</ul>
+     <ul class=""><h6>T-Trust</h6> we are trustworthy, we uphold integrity in: keeping to our words, being honest and being transparent.</ul>
             </ol>
             
         </div>

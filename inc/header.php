@@ -51,7 +51,7 @@ $pageTitle= $pageTitle;
                         <!-- Logo Area -->
                         <div class="logo ">
                             <!-- alt="Heat Finance & Investments" -->
-                            <a href="./index.php"><img src="./img/core-img/log.png" ></a>
+                            <a href="./index.php"><img src="./img/core-img/logo.png" ></a>
                         </div>
 
                         <!-- Social media Nav links -->           
@@ -107,12 +107,13 @@ $pageTitle= $pageTitle;
                                     <li><a href="./services.php" title="Products & Services">Products & Services</a>
                                         <ul class="dropdown">
                                             <li><a href="./serv_details.php?cat=loan">Heat Money</a></li>
-                                            <li><a href="./serv_details.php?cat=consults">Heat Consult</a></li>
                                             <li><a href="./serv_details.php?cat=realtor">Heat Realtors</a></li>
+                                            <li><a href="./serv_details.php?cat=consults">Heat Consult</a></li>
+                                            
                                         </ul>
                                     </li>
 
-                                        <li><a href="crs.php" title="Corporate Social Investments">CRS</a></li>
+                                        <li><a href="crs.php" title="Corporate Social Investments">CSR</a></li>
 
                                     <li><a href="./contact.php" title="Contact">Contact</a></li>
 
@@ -181,7 +182,7 @@ $pageTitle= $pageTitle;
                        
 
                          <div class=>
-                            <a class="credit-btn btn box-shadow  header-apply-btn" href="loan_apply.php" alt="apply "title="Apply For Loan" > APPLY </a>
+                            <a class="credit-btn btn box-shadow  header-apply-btn" href="ln-pg1.php" alt="Apply For Loan Now "title="Loan Application" >Apply Now</a>
                             </div>
                     </nav>
                 </div>

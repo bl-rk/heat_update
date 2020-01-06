@@ -35,7 +35,7 @@
                                 <li><a href="./contact.php">Contact Us</a></li>
                               <!--   <li><a href="services.php">Services &amp; Offers</a></li> -->
                                 <!-- <li><a href="#">Portfolio Presentation</a></li> -->
-                                <li><a href="./services.php">Vission &amp; Mission </a></li>
+                                <li><a href="./about.php">Vission &amp; Mission </a></li>
                             </ul>
                         </nav>
                     </div>
@@ -50,11 +50,11 @@
                         <!-- Nav -->
                         <nav>
                             <ul>
-                                <li><a href="#">Our Loans</a></li>
-                                <li><a href="#">Trading &amp; Commerce</a></li>
+                                <li><a href="./ln-pg1.php">Our Loans</a></li>
+                                <li><a href="./contact.php">Trading &amp; Commerce</a></li>
                    <!--              <li><a href="#">Banking &amp; Private Equity</a></li> -->
                           <!--       <li><a href="#">Industrial &amp; Factory</a></li> -->
-                                <li><a href="#">Financial Solutions</a></li>
+                                <li><a href="./contact">Financial Solutions</a></li>
                             </ul>
                         </nav>
                     </div>

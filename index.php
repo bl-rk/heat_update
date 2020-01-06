@@ -19,9 +19,9 @@ $pageTitle="Heat Finance &amp; Investments";
                         <div class="col-12 col-lg-9">
                             <div class="welcome-text text-center">
                              <!--    <h6 data-animation="fadeInDown" data-delay="100ms">Heat Finance &amp; Investments </h6> -->
-                                <h3 data-animation="fadeInDown" data-delay="300ms"> Heat <span> Finance &amp; </span>Investments </h3>
+                                <h3 data-animation="fadeInDown" data-delay="300ms"> <span>Heat</span> Finance &amp; Investments </h3>
 
-                                <p data-animation="fadeInDown" data-delay="500ms">CREDIT,<span> REALTOR</span>, INVESTMENT, CONSULTING</p>
+                                <p data-animation="fadeInDown" data-delay="500ms">CREDIT *<span> REALTOR</span> * INVESTMENT * INSURANCE * CONSULTING</p>
                          <!--         <p> Enhancing the Financial Wellbeing of Nigerians through quick and affordable Loans </p> -->
                                
                                 <a href="contact.php" class="btn credit-btn mt-50" data-animation="fadeInDown" data-delay="700ms">Make Your Move Now </a>
@@ -44,9 +44,9 @@ $pageTitle="Heat Finance &amp; Investments";
                         <div class="col-12 col-lg-9">
                             <div class="welcome-text text-center">
                              <!--    <h6 data-animation="fadeInDown" data-delay="100ms">Heat Money </h6> -->
-                                <h2 data-animation="fadeInDown" data-delay="300ms"> Heat <span> Money</span>..</h2>
-                                <p data-animation="fadeInDown" data-delay="500ms">... CREDIT @ THE SPEED OF LIGHT  </p>
-                                <a href="contact.php" class="btn credit-btn mt-50" data-animation="fadeInDown" data-delay="700ms">Make your move now</a>
+                                <h2 data-animation="fadeInDown" data-delay="300ms"> <span>Heat</span>  Money</h2>
+                                <p data-animation="fadeInDown" data-delay="500ms">... CREDIT @ SPEED OF LIGHT  </p>
+                                <a href="ln-pg1.php" class="btn credit-btn mt-50" data-animation="fadeInDown" data-delay="700ms">Apply for Loan</a>
                             </div>
                         </div>
                     </div>
@@ -71,8 +71,8 @@ $pageTitle="Heat Finance &amp; Investments";
                             <div class="welcome-text text-center">
                                 <h6 data-animation="fadeInDown" data-delay="100ms"></h6>
                                 <h2 data-animation="fadeInDown" data-delay="300ms"><span> Heat</span> Realtors</h2>
-                                <p data-animation="fadeInDown" data-delay="500ms">WE BUY, SELL, LET, LEASE, DEVELOP, MANAGE.</p>
-                                <a href="services.php" class="btn credit-btn mt-50" data-animation="fadeInDown" data-delay="700ms">Contact us today</a>
+                                <p data-animation="fadeInDown" data-delay="500ms">WE BUY * SELL * LET * LEASE * DEVELOP * MANAGE.</p>
+                                <a href="contact.php" class="btn credit-btn mt-50" data-animation="fadeInDown" data-delay="700ms">Contact us today</a>
                             </div>
                         </div>
                     </div>
@@ -92,8 +92,8 @@ $pageTitle="Heat Finance &amp; Investments";
                         <div class="col-12 col-lg-9">
                             <div class="welcome-text text-center">
                                 <!-- <h6 data-animation="fadeInUp" data-delay="100ms">Heat </h6> -->
-                                <h2 data-animation="fadeInUp" data-delay="300ms">HEAT <span>CONSULTS </span> </h2>
-                                <p data-animation="fadeInUp" data-delay="500ms">PROVIDING CUTTING EDGE ADVISORY AND CONSULANCY ADVISORY SERVEICES.</p>
+                                <h2 data-animation="fadeInUp" data-delay="300ms"><span>HEAT</span> CONSULTS  </h2>
+                                <p data-animation="fadeInUp" data-delay="500ms">PROVIDING CUTTING EDGE ADVISORY AND CONSULANCY SERVEICES.</p>
                                 <a href="contact.php" class="btn credit-btn mt-50" data-animation="fadeInUp" data-delay="700ms">Contact us today</a>
                             </div>
                         </div>
@@ -260,7 +260,7 @@ $pageTitle="Heat Finance &amp; Investments";
                         </a>
                         <div class="text">
                             <a href="serv_details.php?cat=realtor"><h5>HEAT REALTORS</h5>
-                            <p>Facilitating Housing Services: Purchase of Property, Property Development, and Estate Management.</p>
+                            <p>Facilitating Housing Services: We buy, sell, develop and Manage real estate, You can also get a space in our estate.</p>
                             </a>
                         </div>
                     </div>
@@ -288,6 +288,7 @@ $pageTitle="Heat Finance &amp; Investments";
             </div>
         </div>
     </section>
+    
     <!-- ##### Services Area End ###### -->
 <!--  ##### Miscellaneous Area Start ###### 
     <section class="miscellaneous-area bg-gray section-padding-100-0">

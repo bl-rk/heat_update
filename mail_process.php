@@ -5,15 +5,19 @@ use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
 
-/* Include the Composer generated autoload.php file. */
-require 'vendor/autoload.php';
-
+require 'vendor/autoload.php';  // Load Composer's autoloader
 
 
  //********************************************
+// define a constant consisting of the username and password 
+define('UNAME', 'heatfinancials@gmail.com');
+define('UPWD', 'Theheatheat');
+
+
 if(isset($_POST["submit"]))
       
       {
+
 
 $email=$_POST["email"];
 $subject = $_POST["subject"];
@@ -21,47 +25,50 @@ $message = $_POST["message"];
 $name= $_POST["name"];
 $reciever="heatfinancials@gmail.com";
 
-// Load Composer's autoloader
-require 'vendor/autoload.php';
+ $mail = new PHPMailer();  // create a new object
+    $mail->IsSMTP(); // enable SMTP
+    $mail->SMTPDebug = 0;  // debugging: 1 = errors and messages, 2 = messages only
+    $mail->SMTPAuth = true;  // authentication enabled
+    $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
+    $mail->SMTPAutoTLS = false;
+    $mail->Host = 'smtp.gmail.com';
+    $mail->Port = 587;
+                                                 
+    $mail->Username = UNAME;  // call defined constant
+    $mail->Password = UPWD;    //call password 
 
-// Instantiation and passing `true` enables exceptions
-$mail = new PHPMailer(true);
+                                                                                                                  // $mail->SetFrom($email, $name);  previously working implmented one 
+                                                                                                                  // $mail->Subject = $subject;
+                                                                                                                  // $mail->Body = $message;
+                                                                                                                  // $mail->AddAddress($reciever);
 
-try {
-    //Server settings
-    $mail->SMTPDebug = 0;                      // Enable verbose debug output
-    $mail->isSMTP();                                            // Send using SMTP
-    $mail->Host       = 'smtp.gmail.com';                    // Set the SMTP server to send through
-    $mail->SMTPAuth   = true;                                   // Enable SMTP authentication
-    $mail->Username   = 'heatfinancials@gmail.com';                     // SMTP username
-    $mail->Password   = 'Theheatlogin1.';                               // SMTP password
-    $mail->SMTPSecure = 'tls';         // Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS` also accepted
-    $mail->Port       = 587;                                    // TCP port to connect to
-
-    //Recipients
     $mail->setFrom($email, $name);
-    $mail->addAddress($email, 'Joe User');     // Add a recipient
-    $mail->addAddress('ellen@example.com');               // Name is optional
-    $mail->addReplyTo('dosuleo0@gmail.com', 'Information');
+    $mail->addAddress($reciever, 'Heat info');     // to chance to info@heatfinancial
+    // $mail->addAddress('info@heatfinancials.com');               // Name is optional
+    $mail->addReplyTo($email, $name);
     // $mail->addCC('cc@example.com');
-    // $mail->addBCC('bcc@example.com');
-
-    // Attachments
-    // $mail->addAttachment('/var/tmp/file.tar.gz');         // Add attachments
-    // $mail->addAttachment('/tmp/image.jpg', 'new.jpg');    // Optional name
 
     // Content
     $mail->isHTML(true);                                  // Set email format to HTML
     $mail->Subject = $subject;
     $mail->Body    = $message;
-    // $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
 
-    $mail->send();
-    echo 'Message has been sent';
-} catch (Exception $e) {
-    echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
+
+    if(!$mail->Send()) {
+        $error = 'Mail error: '.$mail->ErrorInfo; 
+        return false;
+    } else if(
+        $error = 'Message sent!'){
+        return true;
+
+    } 
+    // else ($mail-> send()) {
+
+    //   header("location:contact.php");
+    // }
+
+
 }
 
-}
 
 ?>

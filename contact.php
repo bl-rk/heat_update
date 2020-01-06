@@ -37,7 +37,7 @@ include("inc/header.php");
                 <div class="col-12 col-lg-4">
                     <div class="single-contact-area mb-100">
                         <!-- Logo -->
-                        <a href="loan_apply.php" class="d-block mb-50"><img src="img/core-img/cell.png" alt="Finance,Contact,Loan,Realtor "></a>
+                        <a href="loan_apply.php" class="d-block mb-50"><img src="img/core-img/cell.png" alt=""></a>
                         <p>Be sure to contact us VIA any of our social media handles, Email addresses &amp; Holines. Our services operates 24/7 .</p>
                     </div>
                 </div>
@@ -94,7 +94,7 @@ include("inc/header.php");
                                 <!-- Single Contact Content -->
                                 <div class="single-contact-content d-flex align-items-center">
                                     <div class="icon">
-                                        <img src="img/core-img/call.png" alt="">
+                                        <!-- <img src="img/core-img/call.png" alt=""> -->
                                     </div>
                                     <div class="text">
                                         <p>+234 80236 11777</p>
