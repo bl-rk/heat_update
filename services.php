@@ -73,7 +73,7 @@
                     </a>
                         <div class="text">
                             <a href="serv_details.php?cat=realtor"><h5>Heat Realtors</h5>
-                            <p>Facilitating Housing Services: We buy, sell, develop and Manage real estate, You can also get a space in our estate.</p>
+                            <p>Facilitating Housing Services: We lease, buy, sell, develop and Manage real estate.</p>
                             </a>
                         </div>
                     </div>
@@ -89,7 +89,7 @@
                     </a>
                         <div class="text">
                             <a href="serv_details.php?cat=consultancy"><h5>Heat Consults</h5>
-                            <p>we provide bespoke and tailored end-to-end financial advisory and consultancy services to our customers.</p>
+                            <p>we provide bespoke and tailored end-to-end financial advisory and consultancy services.</p>
                             </a>
                         </div>
                     </div>

@@ -50,11 +50,11 @@
                         <!-- Nav -->
                         <nav>
                             <ul>
-                                <li><a href="./ln-pg1.php">Our Loans</a></li>
-                                <li><a href="./contact.php">Trading &amp; Commerce</a></li>
+                                <li><a href="./serv_details.php?cat=loan">Our Loans</a></li>
+                                <li><a href="./services.php">Products &amp; Services</a></li>
                    <!--              <li><a href="#">Banking &amp; Private Equity</a></li> -->
                           <!--       <li><a href="#">Industrial &amp; Factory</a></li> -->
-                                <li><a href="./contact">Financial Solutions</a></li>
+                                <li><a href="./faq.php">F A Q</a></li>
                             </ul>
                         </nav>
                     </div>
@@ -120,7 +120,7 @@
                     <div class="col-12">
                         <div class="copywrite-content d-flex flex-wrap justify-content-between align-items-center">
                             <!-- Footer Logo -->
-                            <a href="index.html" class="footer-logo"><img src="img/core-img/logo.png" alt=""></a>
+                            <a href="index.php" class="footer-logo"><img src="img/core-img/log.png" alt=""></a>
 
                             <!-- Copywrite Text -->
                             <p class="copywrite-text"><a href="#">

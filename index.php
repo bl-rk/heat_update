@@ -93,7 +93,7 @@ $pageTitle="Heat Finance &amp; Investments";
                             <div class="welcome-text text-center">
                                 <!-- <h6 data-animation="fadeInUp" data-delay="100ms">Heat </h6> -->
                                 <h2 data-animation="fadeInUp" data-delay="300ms"><span>HEAT</span> CONSULTS  </h2>
-                                <p data-animation="fadeInUp" data-delay="500ms">PROVIDING CUTTING EDGE ADVISORY AND CONSULANCY SERVEICES.</p>
+                                <p data-animation="fadeInUp" data-delay="500ms">PROVIDING CUTTING EDGE ADVISORY AND CONSULTANCY SERVICES.</p>
                                 <a href="contact.php" class="btn credit-btn mt-50" data-animation="fadeInUp" data-delay="700ms">Contact us today</a>
                             </div>
                         </div>
@@ -138,7 +138,7 @@ $pageTitle="Heat Finance &amp; Investments";
                 <div class="col-12 col-sm-6 col-lg-3">
                     <div class="single-features-area mb-100 wow fadeInUp" data-wow-delay="700ms">
                         <img src="img/bg-img/t.jpg" alt="">
-                        <h5>Fast loans &#64; speed of light</h5>
+                        <h5>Fast loans ...&#64; speed of light</h5>
                     </div> 
                 </div>
             </div>
@@ -193,7 +193,7 @@ $pageTitle="Heat Finance &amp; Investments";
                     <p>resource</p>
                 </div> -->
             </div>
-            <a href="#" class="btn credit-btn box-shadow btn-2">Read More</a>
+            <a href="serv_details.php?cat=loan" class="btn credit-btn box-shadow btn-2">Read More</a>
         </div>
     </section>
     <!-- ##### Call To Action End ###### -->
@@ -206,7 +206,7 @@ $pageTitle="Heat Finance &amp; Investments";
                     <!-- Cta Content -->
                     <div class="cta-content d-flex flex-wrap align-items-center justify-content-between">
                         <div class="cta-text">
-                            <h4>Are you in need for a loan? Get in touch with us.</h4>
+                            <h4>Are you in need of a loan? Get in touch with us.</h4>
                         </div>
                         <div class="cta-btn">
                             <a href="contact.php" class="btn credit-btn box-shadow">Contact us now</a>
@@ -244,7 +244,7 @@ $pageTitle="Heat Finance &amp; Investments";
                     </a>
                         <div class="text">
                             <a href="serv_details.php?cat=loan"><h5>HEAT MONEY</h5>
-                            <p>We give out loans as fast as you can expect with low interest rate.</p>
+                            <p>We give out loans faster than you expect with low interest rate.</p>
                             </a>
                         </div>
                     </div>
@@ -260,7 +260,7 @@ $pageTitle="Heat Finance &amp; Investments";
                         </a>
                         <div class="text">
                             <a href="serv_details.php?cat=realtor"><h5>HEAT REALTORS</h5>
-                            <p>Facilitating Housing Services: We buy, sell, develop and Manage real estate, You can also get a space in our estate.</p>
+                            <p>Facilitating Housing Services: We Lease, Buy, sell, develop and Manage real estate.</p>
                             </a>
                         </div>
                     </div>
@@ -278,7 +278,7 @@ $pageTitle="Heat Finance &amp; Investments";
                         </a>
                         <div class="text">
                             <a href="serv_details.php?cat=consults"><h5>HEAT CONSULTS</h5>
-                            <p>we provide bespoke and tailored end-to-end financial advisory and consultancy services to our customers.</p>
+                            <p>we provide bespoke and tailored end-to-end financial advisory and consultancy services.</p>
                             </a>
                         </div>
                     </div>

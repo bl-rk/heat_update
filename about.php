@@ -34,7 +34,7 @@ include("inc/header.php"); ?>
                             <p>Take look at our</p>
                             <h2>About our company</h2>
                         </div>
-                        <h6 class="mb-4">Enhancing the financial wellness of Nigerians through quick affordable and financial solutions. </h6>
+                        <h6 class="mb-4">Enhancing the financial wellness of Nigerians through quick, affordable and tailored made financial solutions. </h6>
 
                         <p class="mb-0">HEAT Finance and Investments Limited, a multifaceted finance and investment company focused on the provision of credits, realtor, investment, Insurance, and Consultancy Services. HEAT Finance and Investments, through different customised trademarks, provides arrays of affordable and tailored made financial solutions to; individuals, micro, small, and medium enterprises (MSME).</p>
                         <a href="services.php" class="btn credit-btn mt-50">Discover</a>
@@ -63,16 +63,16 @@ include("inc/header.php"); ?>
     
     <h2 style = "color: white";>Vision</h2> </br>
 
-<p style = "color: white";>Our vision is to be the preferred financial services provider; to individuals, micro, small, and medium enterprises (MSME) in Africa.</p>
+<p style = "color: white";>Our vision is to be the preferred financial services provider in the sector we operate.</p>
 </br>
 
 <h2 style = "color: white";>Mission</h2> </br>
 
-<p style = "color: white";>Our mission is to enhance the financial wellness of our customers by providing timely, affordable, and tailored made financial solutions, while consistently meeting the expectations of ourstakeholders, and impacting our community positively.</p>
+<p style = "color: white";>Our mission is to enhance the financial wellness of our customers by providing timely, affordable, and tailored made financial solutions, while consistently exceeding stakeholders expectations, and impacting our community positively.  </p>
 
 <h2 style = "color: white";>Core Values</h2> </br>
 
-<p style = "color: white";>Our core values signifies the essence of our existence, it is based on our collective cultures and belief as an institution. Our values are summarized and embedded in our name and represented by the acronym HEAT..</p>
+<p style = "color: white";>Our core values signifies the essence of our existence, it is based on our collective cultures and belief as an institution. Our values are summarized and embedded in our name and represented by the acronym HEAT.</p>
 </br>
 
            <!--  <div class="d-flex flex-wrap align-items-center justify-content-between">
@@ -105,7 +105,7 @@ include("inc/header.php"); ?>
                     <!-- Cta Content -->
                     <div class="cta-content d-flex flex-wrap align-items-center justify-content-between">
                         <div class="cta-text">
-                            <h4>Are you in need for a loan ? Get in touch with us.</h4>
+                            <h4>Are you in need of a loan ? Get in touch with us.</h4>
                           <!--   <p>Morbi ut dapibus dui. Sed ut iaculis elit, quis varius mauris. Integer ut ultricies orci, lobortis egestas sem.</p> -->
                         </div>
                         <div class="cta-btn">

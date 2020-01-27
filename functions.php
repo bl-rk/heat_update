@@ -1,5 +1,5 @@
 <?php
-
+// conditional to check for title and pass the content from service data 
 
 if ($_GET["cat"] == "loan")
 {

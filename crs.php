@@ -39,16 +39,8 @@ include("inc/header.php");
 
                         <p>To this end, our organization proudly supports the activities of RISE Foundation (www.risefoundation.ng)- a Non-Governmental Organization focused on supporting and empowering less privileged children, youths and women in our society through:</p>
 
-         <div class="about-area flex-wrap section-padding-50-50">
-
-<ol class="list-group-item disabled " aria-disabled="true"  >
-<ul class=""> <h6>Rehabilitation; </h6>  </ul>
-<ul class=""><h6>Integration;</h6> </ul>
-<ul class=""><h6>Support;</h6> </ul>
-<ul class=""><h6>Empowerment.</h6> </ul>
- </ol>
-            
-        </div>
+                    <img src="img/bg-img/csr.jpg" alt="Humanitarian Services">     
+                 </div>
 
                     </div>
 

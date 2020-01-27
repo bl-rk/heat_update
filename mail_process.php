@@ -1,4 +1,3 @@
-
 <?php
 /* Namespace alias. */
 use PHPMailer\PHPMailer\PHPMailer;
@@ -11,14 +10,11 @@ require 'vendor/autoload.php';  // Load Composer's autoloader
  //********************************************
 // define a constant consisting of the username and password 
 define('UNAME', 'heatfinancials@gmail.com');
-define('UPWD', 'Theheatheat');
+define('UPWD', 'updatedheat');
 
 
-if(isset($_POST["submit"]))
-      
+if(isset($_POST["submit"]))      
       {
-
-
 $email=$_POST["email"];
 $subject = $_POST["subject"];
 $message = $_POST["message"];
@@ -26,8 +22,8 @@ $name= $_POST["name"];
 $reciever="heatfinancials@gmail.com";
 
  $mail = new PHPMailer();  // create a new object
-    $mail->IsSMTP(); // enable SMTP
-    $mail->SMTPDebug = 0;  // debugging: 1 = errors and messages, 2 = messages only
+    $mail->IsSMTP(); // enable dosuleo0@gmail.comSMTP
+    $mail->SMTPDebug = 4;  // debugging: 1 = errors and messages, 2 = messages only
     $mail->SMTPAuth = true;  // authentication enabled
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
     $mail->SMTPAutoTLS = false;
@@ -54,21 +50,23 @@ $reciever="heatfinancials@gmail.com";
     $mail->Body    = $message;
 
 
-    if(!$mail->Send()) {
+  if(!$mail->Send()) {
         $error = 'Mail error: '.$mail->ErrorInfo; 
         return false;
-    } else if(
-        $error = 'Message sent!'){
-        return true;
-
-    } 
-    // else ($mail-> send()) {
-
-    //   header("location:contact.php");
-    // }
-
+    }    
+      else if ($mail-> Send())
+    {
+        header("location:contact.php");
+        exit();
+    }
 
 }
 
+
+    //     $error = 'Message sent!'){
+    //     return true;
+
+    // } 
+    //     else if(
 
 ?>

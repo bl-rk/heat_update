@@ -5,7 +5,7 @@ $serv_data=[];
 
  	"title" => "Heat Money",
 
- 	"sub_content" => "Heat Money serves as the get go when your in need of a financial back-up on an emergency ",
+ 	"sub_content" => "",
  	
  	"category" => "loan",
  	
@@ -17,7 +17,7 @@ $serv_data=[];
  	
  	"seg_a_content" => "Provides salary advance or Cash Loans to salary and other income earners, you can get upto 300% of net monthly salary/income as loan, repayment is based on monthly income or salary deducted at source or via direct debit order or post-dated cheques. No collateral is required. Repayment durationupto 6 months.",
 
- 	"apply_link" => "./loan_apply.php",
+ 	"apply_link" => "./ln-pg1.php",
 
  	"seg_b_title" => "HEAT Loan-2-Staff (HLS)",
  	
@@ -37,7 +37,11 @@ $serv_data=[];
  	
  	"seg_f_title" => "HEAT Back-2-School (HBS)",
  	
- 	"seg_f_content" => ""
+ 	"seg_f_content" => "This provides funding for school fees for both adults and kids education. Disbursement is made directly to the educational institution on behalf of the applicant, while the applicant repays back via equal monthly installments. Duration of loan is upto 6 months.",
+
+  	 	"seg_g_title" => "HEAT Business Finance (HBF)",
+ 	
+ 		"seg_g_content" => "provides financing, loans, and financial advisory services for Micro, Small, and MediumBusinesses. It provides working capital and cash flow needs through; bridge finance, Asset Acquisition Finance, Invoice Discounting, and financing for contracts/Local Purchase Orders (LPO). Repayment upto 6 months,minimum contributions on applicable products are required."
  ];
 
 
@@ -59,7 +63,7 @@ $serv_data=[];
  	
  	"seg_a_content" => "",
 
- 	"apply_link" => "",
+ 	"apply_link" => "./contact.php",
 
  	"seg_b_title" => "Insurance and Risk Management",
  	
@@ -77,7 +81,7 @@ $serv_data=[];
  	
  	"seg_e_content" => "",
  	
- 	"seg_f_title" => "",
+ 	"seg_f_title" => "Business Feasibility and Incubator",
  	
  	"seg_f_content" => ""
  ];
@@ -101,7 +105,7 @@ $realtor[104]=[
  	
  	"seg_a_content" => "",
 
- 	"apply_link" => "",
+ 	"apply_link" => "./contact.php",
 
  	"seg_b_title" => "Rent and Lease",
  	

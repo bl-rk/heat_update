@@ -182,6 +182,30 @@ include("functions.php");
                             </div>
                         </div>
                          
+                         <?php 
+                         //code to determine if to diplaay a part of the code
+                         // code much highight once it is a link from the index 
+
+                         if($pageTitle == "Heat Money")
+                            {?>
+                         <div class="panel single-accordion">
+                            <h6>
+                                <a role="button" class="collapsed" aria-expanded="true" aria-controls="collapseSeven" data-parent="#accordion" data-toggle="collapse" href="#collapseSeven"> <?php echo $data["seg_g_title"]; ?>
+                                        <span class="accor-open"><i class="fa fa-plus" aria-hidden="true"></i></span>
+                                        <span class="accor-close"><i class="fa fa-minus" aria-hidden="true"></i></span>
+                                        </a>
+                            </h6>
+                            <div id="collapseSeven" class="accordion-content collapse">
+                                <p><?php echo $data["seg_g_content"]; ?></p>
+                            </div>
+                        </div>
+
+
+                         <?php }
+
+
+                            //code ends
+                            ?>
                     </div>
                 </div>
 
@@ -205,17 +229,17 @@ include("functions.php");
                                <!--  <div class="credit-tab-content"> -->
                                     <!-- Tab Text -->
                                     <div class="">
-                                        <li class="list-grioup">
-                                            <ol class="">Must be minimum of 22 years at time of applying .</ol>
+                                        <ol class="list-grioup">
+                                            <li class="">Must be minimum of 22 years at time of applying .</li>
 
-                                            <ol>Must be in full-employment as a confirmed staff .</ol>
+                                            <li>Must be in full-employment as a confirmed staff .</li>
                                             
-                                            <ol>  Must have a steady source of verifiable income .</ol>
+                                            <li>  Must have a steady source of verifiable income .</li>
                                             
-                                            <ol>Must have a functional Bank Account .</ol>
+                                            <li>Must have a functional Bank Account .</li>
                                             
-                                            <ol>Must have a valid means of identification, driver&prime;s license, international passport, or national ID card</ol>
-                                        </li>
+                                            <li>Must have a valid means of identification, driver&prime;s license, international passport, or national ID card</li>
+                                        </ol>
                                     </div>
                                 </div>
                            <!--  </div> -->

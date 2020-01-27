@@ -38,7 +38,7 @@ include("inc/header.php");
                     <div class="single-contact-area mb-100">
                         <!-- Logo -->
                         <a href="loan_apply.php" class="d-block mb-50"><img src="img/core-img/cell.png" alt=""></a>
-                        <p>Be sure to contact us VIA any of our social media handles, Email addresses &amp; Holines. Our services operates 24/7 .</p>
+                        <p>Be sure to contact us VIA any of our social media handles, Email addresses &amp; Hotlines.</p>
                     </div>
                 </div>
 
@@ -61,12 +61,12 @@ include("inc/header.php");
                              Single Advisor -->
                             <div class="single-advisor d-flex align-items-center">
                                 <div class="advisor-img">
-                                    <img src="img/bg-img/26.jpg" alt="">
+                                    <img src="img/bg-img/25.jpg" alt="">
                                 </div>
                                 <div class="advisor-info">
 
                                     <h6>Mr .Heat</h6>
-                                    <span>Operation Manager</span>
+                                    <span>Cheif Credit Consultant</span>
                                     <p> +2348023611777</p>
                                 </div>
                             </div>
@@ -97,7 +97,7 @@ include("inc/header.php");
                                         <!-- <img src="img/core-img/call.png" alt=""> -->
                                     </div>
                                     <div class="text">
-                                        <p>+234 80236 11777</p>
+                                        <p>+234 9072 994 726</p>
                                         <span>mon-fri , 08.am - 17 pm</span>
                                     </div>
                                 </div>
