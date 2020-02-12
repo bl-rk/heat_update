@@ -25,7 +25,7 @@ $serv_data=[];
  	
  	"seg_c_title" => "HEAT Collaterised Loans (HCL)",
  	
- 	"seg_c_content" => "Provides Loans to salary and non-salary earners, based on acceptable collateral like shares, Landed property, other Assets, etc., repayment upto 6 months duration.",
+ 	"seg_c_content" => "Provides Loans to salary and non-salary earners, based on acceptable collateral like shares, landed property, cars, gold other Assets, etc., repayment upto 6 months duration.",
  
  	"seg_d_title" => "HEAT Household Finance (HHF)",
  	

@@ -63,7 +63,7 @@ include("inc/header.php"); ?>
     
     <h2 style = "color: white";>Vision</h2> </br>
 
-<p style = "color: white";>Our vision is to be the preferred financial services provider in the sector we operate.</p>
+<p style = "color: white";>Our vision is to be the preferred financial services provider in the sectors we operate.</p>
 </br>
 
 <h2 style = "color: white";>Mission</h2> </br>

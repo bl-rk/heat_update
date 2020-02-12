@@ -29,6 +29,7 @@ $reciever="heatfinancials@gmail.com";
     $mail->SMTPAutoTLS = false;
     $mail->Host = 'smtp.gmail.com';
     $mail->Port = 587;
+    ob_start();
                                                  
     $mail->Username = UNAME;  // call defined constant
     $mail->Password = UPWD;    //call password 
@@ -54,8 +55,10 @@ $reciever="heatfinancials@gmail.com";
         $error = 'Mail error: '.$mail->ErrorInfo; 
         return false;
     }    
-      else if ($mail-> Send())
+      else 
+        //if ($mail-> Send())
     {
+        echo "mail sent sucessfullly: please await a response within 24 hours";
         header("location:contact.php");
         exit();
     }

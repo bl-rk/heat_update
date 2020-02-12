@@ -46,6 +46,7 @@ include("inc/header.php");
                 <div class="col-12 col-lg-4">
                     <div class="single-contact-area mb-100">
                         <div class="contact-advisor">
+
                           <!--  <h5>Contact an advisor</h5>
                              Single Advisor -->
                            <!-- <div class="single-advisor d-flex align-items-center">
@@ -59,15 +60,16 @@ include("inc/header.php");
                                 </div>
                             </div>
                              Single Advisor -->
+
                             <div class="single-advisor d-flex align-items-center">
                                 <div class="advisor-img">
                                     <img src="img/bg-img/25.jpg" alt="">
                                 </div>
                                 <div class="advisor-info">
 
-                                    <h6>Mr .Heat</h6>
-                                    <span>Cheif Credit Consultant</span>
-                                    <p> +2348023611777</p>
+                                    <h6>Mr. Heat</h6>
+                                    <span></span>
+                                    <p> +2348023611777 </p>
                                 </div>
                             </div>
                         </div>
@@ -126,6 +128,11 @@ include("inc/header.php");
                 <div class="container">
                     <div class="row">
                         <div class="col-12 col-lg-8">
+                          
+                          <!-- Creates an error or valdation message ##start-->
+
+                           <!-- Creates an error or valdation message ##end-->
+                           
                             <!-- Contact Area -->
                             <div class="contact-form-area contact-page">
                                 <h4 class="mb-50">Send a message</h4>
