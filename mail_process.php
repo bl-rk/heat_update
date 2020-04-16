@@ -33,11 +33,10 @@ $reciever="heatfinancials@gmail.com";
                                                  
     $mail->Username = UNAME;  // call defined constant
     $mail->Password = UPWD;    //call password 
-
-                                                                                                                  // $mail->SetFrom($email, $name);  previously working implmented one 
-                                                                                                                  // $mail->Subject = $subject;
-                                                                                                                  // $mail->Body = $message;
-                                                                                                                  // $mail->AddAddress($reciever);
+// $mail->SetFrom($email, $name);  previously working implmented one 
+// $mail->Subject = $subject;
+// $mail->Body = $message;
+// $mail->AddAddress($reciever);
 
     $mail->setFrom($email, $name);
     $mail->addAddress($reciever, 'Heat info');     // to chance to info@heatfinancial

@@ -1,0 +1,6 @@
+{
+    "require": {
+        "tmw/fpdm": "^2.9",
+        "fpdf/fpdf": "^1.82"
+    }
+}

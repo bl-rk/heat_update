@@ -81,9 +81,6 @@ $clientSecret = 'RANDOMCHARS-----lGyjPcRtvP';
 $redirectUri = (isset($_SERVER['HTTPS']) ? 'https://' : 'http://') . $_SERVER['HTTP_HOST'] . $_SERVER['PHP_SELF'];
 //$redirectUri = 'http://localhost/PHPMailer/redirect';
 
-$clientId = '159681510111-78s49umjho30u2cs9efavvrs13doheoq.apps.googleusercontent.com';
-$clientSecret =  'W2DVUKFEz1PGiEXkpF6pkZ4f';
-
 $params = [
     'clientId' => $clientId,
     'clientSecret' => $clientSecret,

@@ -120,7 +120,7 @@
                     <div class="col-12">
                         <div class="copywrite-content d-flex flex-wrap justify-content-between align-items-center">
                             <!-- Footer Logo -->
-                            <a href="index.php" class="footer-logo"><img src="img/core-img/log.png" alt=""></a>
+                            <a href="index.php" class="footer-logo"><img src="img/core-img/h6.png" alt=""></a>
 
                             <!-- Copywrite Text -->
                             <p class="copywrite-text"><a href="#">

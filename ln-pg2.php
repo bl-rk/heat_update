@@ -1,6 +1,61 @@
 <?php 
 session_start(); //starts seeion
 
+// Checking first page values for empty,If it finds any blank field then redirected to first page.
+if (isset($_POST['fname']))
+{
+  if (empty($_POST['fname'])
+  || empty($_POST['lname'])
+  || empty($_POST['email'])
+  || empty($_POST['contact'])
+  )
+{
+// Setting error message
+$_SESSION['error'] = "Mandatory field(s) are missing, Please fill it again";
+header("location: ln-pg1.php"); // Redirecting to first page 
+} 
+else 
+        {
+// Sanitizing email field to remove unwanted characters.
+$_POST['email'] = filter_var($_POST['email'], FILTER_SANITIZE_EMAIL); 
+// After sanitization Validation is performed.
+if (filter_var($_POST['email'], FILTER_VALIDATE_EMAIL))
+{ 
+// Validating Contact Field using regex.
+if (!preg_match("/^[0-9]{11}$/", $_POST['contact'])){ 
+$_SESSION['error'] = "11 digit contact number is required.";
+header("location:ln-pg1.php");
+}    
+else 
+ {
+ if (($_POST['fname']) !== ($_POST['lname'])) {
+
+ foreach ($_POST as $key => $value) {
+ $_SESSION['post'][$key] = $value;
+
+ }
+ } 
+ else
+  {
+ $_SESSION['error'] = "Please insert correct names.";
+ header("location: ln-pg1.php"); //redirecting to first page
+ }
+}
+ }    
+else 
+{    
+$_SESSION['error'] = "Invalid Email Address";
+header("location: ln-pg1.php");//redirecting to first page
+  }
+        }
+  }
+
+else 
+{
+  if (empty($_SESSION['error2'])) {
+     header("location: ln-pg1.php");//redirecting to first page after checking pg 2 is empty and return to 1 for a fresh check 
+}
+} 
 
 
 $pageTitle="Loan Application"; 
@@ -18,15 +73,20 @@ $pageTitle="Loan Application";
                    <h4 class="mb-50">Loan Details:</h4>
 
 
- <span id="error">
-<?php
-// To show error of page 2.
-if (!empty($_SESSION['error_page2'])) {
- echo $_SESSION['error_page2'];
- unset($_SESSION['error_page2']);
-}
-?>
- </span>
+     <span id="error">
+
+    <?php
+
+    // To show error of page 2.
+    if (!empty($_SESSION['error2'])) {
+     echo $_SESSION['error2'];
+     unset($_SESSION['error2']);
+    }
+    ?>
+
+
+     </span>
+  
 
 <form action="ln-pg3.php" method="post">
     <div class="row">
@@ -36,24 +96,24 @@ if (!empty($_SESSION['error_page2'])) {
 
   <div class="col-lg-6">
       <div class="form-group">        
-          <p><input class="form-control" placeholder="Loan Request..."  name="Loan Request" required></p>
+          <p><input class="form-control" placeholder="Loan Request..."  name="amount-rq" required></p>
       </div>
         </div>
       <div class="col-lg-6">
       <div class="form-group">
-          <p><input class="form-control" placeholder="Bank Name ..." name="Bank Name" required></p>
+          <p><input class="form-control" placeholder="Bank Name ..." name="bank-name" required></p>
     </div>
       </div>
 
       <div class="col-lg-6">
        <div class="form-group">
-          <p><input class="form-control" placeholder="BVN..." name="BVN" required></p>
+          <p><input class="form-control" placeholder="BVN..." name="bvn" required></p>
         </div>
           </div>
 
         <div class="col-lg-6">
           <div class="form-group">  
-          <p><input class="form-control" placeholder="Account No..." name="Account No" required></p>
+          <p><input class="form-control" placeholder="Account No..." name="accut-num" required></p>
         </div>
           </div>
 
@@ -92,29 +152,29 @@ if (!empty($_SESSION['error_page2'])) {
 
   <div class="col-lg-6">
     <div class="form-group">
-     <input class="form-control" type="text" placeholder="Company's Name" name="Company's Name" required>
+     <input class="form-control" type="text" placeholder="Company's Name" name="comp-name" required>
   </div>
     </div>
 
      <div class="col-lg-6">
           <div class="form-group">  
-          <p><input class="form-control" placeholder="Occupation  (Ex:Operations)..." name="Occupation" required></p>
+          <p><input class="form-control" placeholder="Occupation  (Ex:Operations)..." name="occupation" required></p>
         </div>
           </div>
         
  <div class="col-12">
     <div class="form-group">
-        <input class="form-control" id="Address" placeholder="Address" type="text" required>
+        <input class="form-control" id="Address" placeholder="Company's Address"  name="comp-addrs" type="text" required>
     </div>
   </div >        
      <div class="col-7"> <!-- locality-->
-      <input type="text" class="form-control" placeholder="City" required>
+      <input type="text" class="form-control" placeholder="City" name="city" required>
     </div>
   <div class="col">
-    <input type="text" class="form-control" placeholder="State" required>
+    <input type="text" class="form-control" placeholder="State"  name="state" required>
   </div>
   <div class="col">
-    <input type="text" class="form-control" placeholder="Zip" required>
+    <input type="text" class="form-control" placeholder="Zip" name="zip"  required>
   </div>
 
 
@@ -149,9 +209,6 @@ if (!empty($_SESSION['error_page2'])) {
       </div>
 
     </div>
-
-
-   
 
 
                  </div>

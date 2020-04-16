@@ -37,9 +37,9 @@ include("inc/header.php");
                         <img src="img/bg-img/22.jpg" alt="">
                         <p>HEAT Money provides fast and affordable financial solutions which empowers people and businesses, in addition our organization contributes positively to our community through various corporate social investment activities. HEAT Finance and Investments (the owners of HEAT Money) takes corporate social responsibility seriously, and our objective here is to be a source of positive social change in the community we operate in. </p>
 
-                        <p>To this end, our organization proudly supports the activities of RISE Foundation (www.risefoundation.ng)- a Non-Governmental Organization focused on supporting and empowering less privileged children, youths and women in our society through:</p>
+                        <p>To this end, our organization proudly supports the activities of RISE Foundation <a alt="site link" href=www.risefoundation.ng>(www.risefoundation.ng) </a> a Non-Governmental Organization focused on supporting and empowering less privileged children, youths and women in our society through:</p>
 
-                    <img src="img/bg-img/csr.jpg" alt="Humanitarian Services">     
+                    <img src="img/bg-img/csr.png" alt="Humanitarian Services">     
                  </div>
 
                     </div>

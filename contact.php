@@ -141,22 +141,22 @@ include("inc/header.php");
                                     <div class="row">
                                         <div class="col-lg-6">
                                             <div class="form-group">
-                                                <input type="text" class="form-control" id="name" name="name" placeholder="Your Name">
+                                                <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required="">
                                             </div>
                                         </div>
                                         <div class="col-lg-6">
                                             <div class="form-group">
-                                                <input type="email" class="form-control" id="email" name="email" placeholder="Your E-mail">
+                                                <input type="email" class="form-control" id="email" name="email" placeholder="Your E-mail" required=""> 
                                             </div>
                                         </div>
                                         <div class="col-12">
                                             <div class="form-group">
-                                                <input type="text" class="form-control" id="subject" name="subject" placeholder="Your Subject">
+                                                <input type="text" class="form-control" id="subject" name="subject" placeholder="Your Subject" required="">
                                             </div>
                                         </div>
                                         <div class="col-12">
                                             <div class="form-group">
-                                                <textarea name="message" class="form-control" id="message" cols="30" rows="10" placeholder="Your Message"></textarea>
+                                                <textarea name="message" class="form-control" id="message" cols="30" rows="10" placeholder="Your Message" required=""></textarea>
                                             </div>
                                         </div>
                                         <div class="col-12">

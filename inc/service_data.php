@@ -9,13 +9,13 @@ $serv_data=[];
  	
  	"category" => "loan",
  	
- 	"content" => "HEAT Money is a trade mark of HEAT Finance and Investments Limited; HEAT Money provides arrays of affordable and customised loans to: individuals, micro, small, and medium enterprises (MSME), at the speed of light!",
+ 	"content" => "HEAT Money is a trademark of HEAT Finance and Investments Limited; HEAT Money provides arrays of affordable and customised loans to: individuals, micro, small, and medium enterprises (MSME), at the speed of light!",
  	
  	"img"=>"img/bg-img/14A.jpg",
  	
  	"seg_a_title" => "HEAT Salary Advance (HSA)",
  	
- 	"seg_a_content" => "Provides salary advance or Cash Loans to salary and other income earners, you can get upto 300% of net monthly salary/income as loan, repayment is based on monthly income or salary deducted at source or via direct debit order or post-dated cheques. No collateral is required. Repayment durationupto 6 months.",
+ 	"seg_a_content" => "Provides salary advance or Cash Loans to salary and other income earners, you can get upto 300% of net monthly salary/income as loan, repayment is based on monthly income or salary deducted at source or via direct debit order or post-dated cheques. No collateral is required. Repayment duration up to 6 months.",
 
  	"apply_link" => "./ln-pg1.php",
 
@@ -29,11 +29,11 @@ $serv_data=[];
  
  	"seg_d_title" => "HEAT Household Finance (HHF)",
  	
- 	"seg_d_content" => "Provides financing for Assets acquisitions and household appliances;car, furniture, gas cookers, air conditioners,freezers, fridges, television sets, sound systems/home theaertre and otherhousehold appliances, for individuals with regular source of income or salary earners. Minimum contributions of 30% of cost of asset to be acquired. Repayment is on equal monthly installments, Repayment periodupto 12 months.",
+ 	"seg_d_content" => "Provides financing for Assets acquisitions and household appliances ;car, furniture, gas cookers, air conditioners,freezers, fridges, television sets, sound systems/home theaertre and other household appliances, for individuals with regular source of income or salary earners. Minimum contributions of 30% of cost of asset to be acquired. Repayment is on equal monthly installments, Repayment period up to 12 months.",
 
  	"seg_e_title" => "HEAT Transport Finance (HTF)",
  	
- 	"seg_e_content" => "Provides financing forVehicle, Okada, and tricycle used for local transportation businesses and registered with such organisations like UBER, BOLT, etc.Minimum contributions of 20% of cost of vehicle to be acquired. Repayment is on equal weekly/monthly installments, Repayment period upto 18 months.",
+ 	"seg_e_content" => "Provides financing for Vehicle, Okada, and tricycle used for local transportation businesses and registered with such organisations like UBER, BOLT, etc.Minimum contributions of 20% of cost of vehicle to be acquired. Repayment is on equal weekly/monthly installments, Repayment period upto 18 months.",
  	
  	"seg_f_title" => "HEAT Back-2-School (HBS)",
  	
@@ -41,7 +41,7 @@ $serv_data=[];
 
   	 	"seg_g_title" => "HEAT Business Finance (HBF)",
  	
- 		"seg_g_content" => "provides financing, loans, and financial advisory services for Micro, Small, and MediumBusinesses. It provides working capital and cash flow needs through; bridge finance, Asset Acquisition Finance, Invoice Discounting, and financing for contracts/Local Purchase Orders (LPO). Repayment upto 6 months,minimum contributions on applicable products are required."
+ 		"seg_g_content" => "provides financing, loans, and financial advisory services for Micro, Small, and Medium Businesses. It provides working capital and cash flow needs through; bridge finance, Asset Acquisition Finance, Invoice Discounting, and financing for contracts/Local Purchase Orders (LPO). Repayment upto 6 months, minimum contributions on applicable products are required."
  ];
 
 
@@ -55,7 +55,7 @@ $serv_data=[];
  	
  	"category" => "consultancy",
  	
- 	"content"=> "HEAT Consult is a trade mark of HEAT Finance and Investments Limited; HEAT Consults provides customised, bespoke, end-to-end,and cutting edge advisory and consultancy services.For each category of services, we have specialized project teams with pre-requisite expertise and know-how. We also assist with training, mentoring, and coaching. Our key objective here is to enhance our customer's financial wellness.",
+ 	"content"=> "HEAT Consult is a trademark of HEAT Finance and Investments Limited; HEAT Consults provides customised, bespoke, end-to-end,and cutting edge advisory and consultancy services.For each category of services, we have specialized project teams with pre-requisite expertise and know-how. We also assist with training, mentoring, and coaching. Our key objective here is to enhance our customer's financial wellness.",
  	
  	"img"=>"img/bg-img/14b.jpg",
 
@@ -96,7 +96,7 @@ $realtor[104]=[
  
  	"category" => "realtor",
  
- 	"content"=> "HEAT Realtors is a trade mark of HEAT Finance and Investments Limited; HEAT Realtors helps facilitate the provision of quality affordable housing through providing real estate management and property development services.",
+ 	"content"=> "HEAT Realtors is a trademark of HEAT Finance and Investments Limited; HEAT Realtors helps facilitate the provision of quality affordable housing through providing real estate management and property development services.",
  
  	"img"=>"img/bg-img/14c.jpg",
 

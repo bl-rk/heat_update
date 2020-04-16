@@ -330,6 +330,14 @@ img {
 .bg-fixed {
   background-attachment: fixed !important; }
 
+  
+/* loan application error display */
+#error{
+ display:block;
+ margin-top: 10px;
+ margin-bottom: 10px;
+}
+
 /* :: 3.6.0 ScrollUp */
 #scrollUp {
   background-color: /*color change*/#215466;

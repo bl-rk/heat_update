@@ -1,8 +1,6 @@
 <?php
 session_start(); //starts seeion
-?>
 
-<?php
 
 $pageTitle="Loan Application"; 
   include("inc/header.php");
@@ -24,13 +22,20 @@ $pageTitle="Loan Application";
                    <h4 class="mb-50">Bio-Data:</h4>
 
 <span id="error">
+
  <!---- Initializing Session for errors --->
  <?php
- if (!empty($_SESSION['error'])) {
+
+ if (!empty($_SESSION['error'])) 
+ {
  echo $_SESSION['error'];
+
  unset($_SESSION['error']);
  }
+
  ?>
+
+
  </span>
 
           <form  action="ln-pg2.php" method="post">
@@ -49,7 +54,7 @@ $pageTitle="Loan Application";
         </div>
         <div class="col-lg-6">
           <div class="form-group">
-           <p><input class="form-control" placeholder="Mobile No (08100000000)..."  name="phone" required></p>
+           <p><input class="form-control" placeholder="Mobile No (081****0000)..."  name="contact" required></p>
              </div>
         </div>
          <div class="col-lg-6">
@@ -77,7 +82,7 @@ $pageTitle="Loan Application";
          <div class="col-lg-6">
           <div class="form-group">
       <p>  Gender: </p> <!-- Gender option-->
-      <select  name="Gender" class="form-control">
+      <select  name="Gender" class="form-control" name="gender">
           <option value="Male"> Male</option>
           <option value="Female"> Female</option> 
           </select>

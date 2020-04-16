@@ -1,0 +1,102 @@
+[
+    {
+        "name": "fpdf/fpdf",
+        "version": "1.82.1",
+        "version_normalized": "1.82.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/coreydoughty/Fpdf.git",
+            "reference": "a8eb66ba732813f282a935775bceb72ffd40b15d"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/coreydoughty/Fpdf/zipball/a8eb66ba732813f282a935775bceb72ffd40b15d",
+            "reference": "a8eb66ba732813f282a935775bceb72ffd40b15d",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.6.0"
+        },
+        "time": "2020-02-15T12:05:43+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Fpdf\\": "src/Fpdf"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Corey Doughty",
+                "email": "corey@doughty.ca"
+            }
+        ],
+        "description": "FPDF Composer Wrapper",
+        "homepage": "https://github.com/coreydoughty/Fpdf",
+        "keywords": [
+            "fpdf",
+            "pdf",
+            "wrapper"
+        ]
+    },
+    {
+        "name": "tmw/fpdm",
+        "version": "2.9.2",
+        "version_normalized": "2.9.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/codeshell/fpdm.git",
+            "reference": "2db6f6a8cf7f0d593c13dbbe10df0737d9526313"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/codeshell/fpdm/zipball/2db6f6a8cf7f0d593c13dbbe10df0737d9526313",
+            "reference": "2db6f6a8cf7f0d593c13dbbe10df0737d9526313",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2019-06-11T23:37:41+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "classmap": [
+                "src/fpdm.php",
+                "src/filters/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Olivier Plathey",
+                "email": "oliver@fpdf.org",
+                "homepage": "http://www.fpdf.org/",
+                "role": "Author"
+            },
+            {
+                "name": "codeshell",
+                "homepage": "https://github.com/codeshell/",
+                "role": "Developer"
+            }
+        ],
+        "description": "PDF form filling using FPDM Class written by FPDF author Olivier",
+        "homepage": "https://github.com/codeshell/fpdm",
+        "keywords": [
+            "Forms",
+            "fields",
+            "fill",
+            "fpdf",
+            "fpdm",
+            "pdf",
+            "populate"
+        ]
+    }
+]
