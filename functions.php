@@ -1,6 +1,6 @@
 <?php
 // conditional to check for title and pass the content from service data 
-
+if (isset($_GET['cat'])){
 if ($_GET["cat"] == "loan")
 {
  foreach($money as $id => $data)
@@ -50,3 +50,6 @@ elseif ($_GET["cat"] == "insurance")
 
         }
 }
+
+;}
+

@@ -1,10 +1,7 @@
 <?php
-session_start(); //starts seeion
-
 
 $pageTitle="Loan Application"; 
-  include("inc/header.php");
-
+include("inc/header.php");
 
 ?>
 
@@ -22,20 +19,14 @@ $pageTitle="Loan Application";
                    <h4 class="mb-50">Bio-Data:</h4>
 
 <span id="error">
-
  <!---- Initializing Session for errors --->
- <?php
+     <?php
 
- if (!empty($_SESSION['error'])) 
- {
- echo $_SESSION['error'];
+   if(!empty($_SESSION['error'])) 
+   {  echo $_SESSION['error'];
+      unset($_SESSION['error']); }
 
- unset($_SESSION['error']);
- }
-
- ?>
-
-
+    ?>
  </span>
 
           <form  action="ln-pg2.php" method="post">
